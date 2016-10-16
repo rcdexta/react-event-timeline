@@ -2,6 +2,8 @@
 
 A react component to generate a responsive event-timeline
 
+[![Build Status](https://travis-ci.org/rcdexta/react-event-timeline.svg?branch=master)](https://travis-ci.org/rcdexta/react-event-timeline)
+
 ![alt tag](https://github.com/rcdexta/react-event-timeline/raw/master/timeline.png)
 
 See the storybook demo here:
