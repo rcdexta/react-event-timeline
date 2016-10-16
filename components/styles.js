@@ -6,10 +6,6 @@ let style = {
     fontWeight: 300,
     padding: '10px 0',
     width: '95%',
-    margin: {
-      top: 5,
-      bottom: 5
-    },
     margin: '0 auto'
   },
   containerBefore: {

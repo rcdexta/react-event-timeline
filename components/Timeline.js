@@ -3,13 +3,13 @@ import s from './styles'
 
 class Timeline extends Component {
 
-  render() {
+  render () {
     return (
       <div>
         <section style={s.container} {...this.props}>
-          <div style={s.containerBefore}></div>
+          <div style={s.containerBefore} />
           {this.props.children}
-          <div style={s.containerAfter}></div>
+          <div style={s.containerAfter} />
         </section >
       </div>
     )
@@ -18,6 +18,6 @@ class Timeline extends Component {
 
 Timeline.propTypes = {
   children: React.PropTypes.node.isRequired
-};
+}
 
 export default Timeline
