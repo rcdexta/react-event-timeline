@@ -3,12 +3,12 @@ import { setOptions } from '@kadira/storybook-addon-options';
 
 setOptions({
   name: 'react event timeline',
-  url: 'https://github.com/ritz078/react-component-boilerplate',
+  url: 'https://github.com/rcdexta/react-event-timeline',
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: true,
   showSearchBox: false,
-  downPanelInRight: false,
+  downPanelInRight: false
 });
 
 function loadStories () {
