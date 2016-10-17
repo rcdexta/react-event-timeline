@@ -50,7 +50,7 @@ TimelineEvent.propTypes = {
   buttons: React.PropTypes.node,
   icon: React.PropTypes.node,
   iconColor: React.PropTypes.string,
-  contentStyle:  React.PropTypes.object
+  contentStyle: React.PropTypes.object
 }
 
 export default TimelineEvent
