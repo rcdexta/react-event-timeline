@@ -40,7 +40,7 @@ let style = {
     borderRadius: '50%',
     width: 30,
     height: 30,
-    marginLeft: 0,
+    marginLeft: 2,
     background: '#e9f0f5',
     border: '2px solid #6fba1c'
   },
