@@ -6,9 +6,18 @@ class TimelineEvent extends Component {
   eventNotificationStyle () {
     const {iconColor} = this.props
     if (iconColor) {
-      return Object.assign(s.eventType, {color: iconColor, borderColor: iconColor})
+      return {...s.eventType, ...{color: iconColor, borderColor: iconColor}}
     } else {
       return s.eventType
+    }
+  }
+
+  contentStyle () {
+    const {contentStyle} = this.props
+    if (contentStyle) {
+      return {...s.message, ...contentStyle}
+    } else {
+      return s.message
     }
   }
 
@@ -23,7 +32,7 @@ class TimelineEvent extends Component {
         <div style={s.title}>{this.props.title}</div>
         <div style={s.actionButtons}>{this.props.buttons}</div>
         <div style={{clear: 'both', marginBottom: 10}} />
-        <div style={s.message}>
+        <div style={this.contentStyle()}>
           {this.props.children}
           <div style={s.messageAfter} />
         </div>
@@ -40,7 +49,8 @@ TimelineEvent.propTypes = {
   createdAt: React.PropTypes.string.isRequired,
   buttons: React.PropTypes.node,
   icon: React.PropTypes.node,
-  iconColor: React.PropTypes.string
+  iconColor: React.PropTypes.string,
+  contentStyle:  React.PropTypes.object
 }
 
 export default TimelineEvent

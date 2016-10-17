@@ -51,6 +51,8 @@ ReactDOM.render(
 );
 ```
 
+Please refer to [story description](https://github.com/rcdexta/react-event-timeline/blob/master/stories/App.story.js) to check out code for all the examples in the storybook
+
 ## API Documentation
 
 ### Timeline

@@ -1,5 +1,5 @@
 import React from 'react';
-import {storiesOf, action} from '@kadira/storybook';
+import {storiesOf} from '@kadira/storybook';
 
 import {Timeline, TimelineEvent} from '../components/index'
 import Image from './sample.jpg'
@@ -63,6 +63,18 @@ storiesOf('Timeline', module)
             >
                 <p>Please check if this image is good for printing</p>
                 <img src={Image} />
+            </TimelineEvent>
+        </Timeline>
+    ))
+    .add('Custom Styling', () => (
+        <Timeline>
+            <TimelineEvent title="John Doe sent a SMS"
+                           createdAt="2016-09-12 10:06 PM"
+                           icon={<i className="material-icons md-18">textsms</i>}
+                           iconColor="#6fba1c"
+                           contentStyle={{backgroundColor: '#00BCD4', color: '#fff'}}
+            >
+                This message should appear on a different background
             </TimelineEvent>
         </Timeline>
     ))
