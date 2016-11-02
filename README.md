@@ -78,7 +78,7 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 
 ### Development
 
-This project recommends using (react-storybook)[https://github.com/kadirahq/react-storybook] as a UI component development environment. Use the following scripts for your development workflow:
+This project recommends using [react-storybook](https://github.com/kadirahq/react-storybook) as a UI component development environment. Use the following scripts for your development workflow:
 
 1. `npm run storybook`: Start developing by using storybook
 1. `npm run lint` : Lint all js files
@@ -88,7 +88,7 @@ This project recommends using (react-storybook)[https://github.com/kadirahq/reac
 
 The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes live reloaded on the browser
  
-Also use (semantic-release)[https://github.com/semantic-release/semantic-release] to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository. 
+Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository. 
 
 ### License
 
