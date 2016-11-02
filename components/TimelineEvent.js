@@ -45,8 +45,8 @@ class TimelineEvent extends Component {
 
 TimelineEvent.propTypes = {
   children: React.PropTypes.node.isRequired,
-  title: React.PropTypes.string.isRequired,
-  createdAt: React.PropTypes.string.isRequired,
+  title: React.PropTypes.node.isRequired,
+  createdAt: React.PropTypes.node.isRequired,
   buttons: React.PropTypes.node,
   icon: React.PropTypes.node,
   iconColor: React.PropTypes.string,
