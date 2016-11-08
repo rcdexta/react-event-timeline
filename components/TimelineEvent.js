@@ -3,8 +3,7 @@ import s from './styles'
 
 class TimelineEvent extends Component {
 
-  eventNotificationStyle () {
-    const {iconColor} = this.props
+  mergeNotificationStyle (iconColor) {
     if (iconColor) {
       return {...s.eventType, ...{color: iconColor, borderColor: iconColor}}
     } else {
@@ -12,8 +11,7 @@ class TimelineEvent extends Component {
     }
   }
 
-  contentStyle () {
-    const {contentStyle} = this.props
+  mergeContentStyle (contentStyle) {
     if (contentStyle) {
       return {...s.message, ...contentStyle}
     } else {
@@ -24,7 +22,7 @@ class TimelineEvent extends Component {
   render () {
     const {createdAt, title, contentStyle, buttons, icon, iconColor, ...otherProps} = this.props
     return <div style={s.event}>
-      <div style={this.eventNotificationStyle()}>
+      <div style={this.mergeNotificationStyle(iconColor)}>
         <span style={s.materialIcons}>{icon}</span>
       </div>
       <div style={s.eventContent} {...otherProps}>
@@ -33,7 +31,7 @@ class TimelineEvent extends Component {
         <div style={s.title}>{title}</div>
         <div style={s.actionButtons}>{buttons}</div>
         <div style={{clear: 'both', marginBottom: 10}} />
-        <div style={this.contentStyle()}>
+        <div style={this.mergeContentStyle(contentStyle)}>
           {this.props.children}
           <div style={s.messageAfter} />
         </div>
