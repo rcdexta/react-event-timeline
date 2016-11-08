@@ -62,7 +62,7 @@ storiesOf('Timeline', module)
                            iconColor="#6fba1c"
             >
                 <p>Please check if this image is good for printing</p>
-                <img src={Image} />
+                <img src={Image}/>
             </TimelineEvent>
         </Timeline>
     ))
@@ -78,4 +78,18 @@ storiesOf('Timeline', module)
             </TimelineEvent>
         </Timeline>
     ))
+    .add('Event handlers', () => {
+        function sayClicked() {
+            alert('You clicked here!')
+        }
+        return <Timeline>
+            <TimelineEvent title="John Doe sent you a click bomb"
+                           createdAt="2016-09-12 10:06 PM"
+                           icon={<i className="material-icons md-18">textsms</i>}
+                           iconColor="#6fba1c"
+                           onClick={sayClicked}>
+                Clicking this should raise an alert!
+            </TimelineEvent>
+        </Timeline>
+    })
 

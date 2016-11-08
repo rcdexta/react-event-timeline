@@ -22,15 +22,16 @@ class TimelineEvent extends Component {
   }
 
   render () {
+    const {createdAt, title, contentStyle, buttons, icon, iconColor, ...otherProps} = this.props
     return <div style={s.event}>
       <div style={this.eventNotificationStyle()}>
-        <span style={s.materialIcons}>{this.props.icon}</span>
+        <span style={s.materialIcons}>{icon}</span>
       </div>
-      <div style={s.eventContent}>
+      <div style={s.eventContent} {...otherProps}>
         <div style={s.eventContentBefore} />
-        <div style={s.time}>{this.props.createdAt}</div>
-        <div style={s.title}>{this.props.title}</div>
-        <div style={s.actionButtons}>{this.props.buttons}</div>
+        <div style={s.time}>{createdAt}</div>
+        <div style={s.title}>{title}</div>
+        <div style={s.actionButtons}>{buttons}</div>
         <div style={{clear: 'both', marginBottom: 10}} />
         <div style={this.contentStyle()}>
           {this.props.children}
