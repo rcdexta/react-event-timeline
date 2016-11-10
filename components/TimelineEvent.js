@@ -4,19 +4,11 @@ import s from './styles'
 class TimelineEvent extends Component {
 
   mergeNotificationStyle (iconColor) {
-    if (iconColor) {
-      return {...s.eventType, ...{color: iconColor, borderColor: iconColor}}
-    } else {
-      return s.eventType
-    }
+    return iconColor ? {...s.eventType, ...{color: iconColor, borderColor: iconColor}} : s.eventType;
   }
 
   mergeContentStyle (contentStyle) {
-    if (contentStyle) {
-      return {...s.message, ...contentStyle}
-    } else {
-      return s.message
-    }
+    return contentStyle ? {...s.message, ...contentStyle} : s.message;
   }
 
   render () {
