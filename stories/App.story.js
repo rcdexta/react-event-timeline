@@ -66,18 +66,17 @@ storiesOf('Timeline', module)
             </TimelineEvent>
         </Timeline>
     ))
-    .add('Custom Styling', () => (
-        <Timeline>
-            <TimelineEvent title="John Doe sent a SMS"
+    .add('Card Appearance', () => {
+        return <Timeline>
+            <TimelineEvent title="Introduction to Redux in React applications"
                            createdAt="2016-09-12 10:06 PM"
-                           icon={<i className="material-icons md-18">textsms</i>}
-                           iconColor="#6fba1c"
-                           contentStyle={{backgroundColor: '#00BCD4', color: '#fff'}}
-            >
-                This message should appear on a different background
+                           icon={<i className="material-icons md-18">event</i>}
+                           iconColor="#757575"
+                           container="card">
+                A DIY workshop on using React with Redux to build a Instagram clone
             </TimelineEvent>
         </Timeline>
-    ))
+    })
     .add('Event handlers', () => {
         return <Timeline>
             <TimelineEvent title="John Doe sent you a click bomb"
@@ -89,4 +88,18 @@ storiesOf('Timeline', module)
             </TimelineEvent>
         </Timeline>
     })
+    .add('Custom Styling', () => (
+        <Timeline>
+            <TimelineEvent title="John Doe sent a SMS"
+                           createdAt="2016-09-12 10:06 PM"
+                           icon={<i className="material-icons md-18">textsms</i>}
+                           iconColor="#6fba1c"
+                           style={{backgroundColor: '#fff', padding: 10}}
+                           contentStyle={{backgroundColor: '#00BCD4', color: '#fff'}}
+            >
+                This message should appear on a different background
+            </TimelineEvent>
+        </Timeline>
+    ))
+
 

@@ -73,7 +73,8 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | icon      | node   | The icon to show as event lable. Can be a SVG or font icon |
 | iconColor | string | CSS color code for icon                  |
 | buttons   | node   | Action buttons to display to the right of the event content |
-
+| contentStyle | node | Override content style |
+| container | string | Optional value `card` will render event as a Card |
 ### Development
 
 This project recommends using [react-storybook](https://github.com/kadirahq/react-storybook) as a UI component development environment. Use the following scripts for your development workflow:

@@ -54,10 +54,10 @@ let style = {
     marginLeft: -8,
     marginTop: -8
   },
-  eventContent: {
+  eventContainer: {
     position: 'relative'
   },
-  eventContentBefore: {
+  eventContainerBefore: {
     top: 24,
     left: '100%',
     borderColor: 'transparent',
@@ -81,14 +81,26 @@ let style = {
     content: '',
     display: 'table'
   },
-  title: {
-    float: 'left'
-  },
   actionButtons: {
     float: 'right',
     textAlign: 'right'
+  },
+  card: {
+      boxShadow: 'rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px',
+      backgroundColor: 'rgb(255, 255, 255)'
+  },
+  cardTitle: {
+    backgroundColor: '#7BB1EA',
+    padding: 10,
+    color: '#fff'
+  },
+  cardBody: {
+    backgroundColor: '#ffffff',
+    marginBottom: '1em',
+    lineHeight: 1.6,
+    padding: '1.5em 1em',
+    minHeight: 40
   }
-
 }
 
 export default style
