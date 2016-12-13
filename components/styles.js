@@ -22,7 +22,6 @@ let style = {
     display: 'table',
     clear: 'both'
   },
-
   event: {
     position: 'relative',
     margin: '10px 0',
@@ -46,8 +45,8 @@ let style = {
   },
   materialIcons: {
     display: 'block',
-    width: 18,
-    height: 18,
+    width: 32,
+    height: 32,
     position: 'relative',
     left: '50%',
     top: '50%',
@@ -83,7 +82,8 @@ let style = {
   },
   actionButtons: {
     float: 'right',
-    textAlign: 'right'
+    textAlign: 'right',
+    marginTop: -20
   },
   card: {
     boxShadow: 'rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px',

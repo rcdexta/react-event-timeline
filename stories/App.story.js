@@ -72,6 +72,7 @@ storiesOf('Timeline', module)
                            createdAt="2016-09-12 10:06 PM"
                            icon={<i className="material-icons md-18">event</i>}
                            iconColor="#757575"
+                           buttons={<i className="material-icons md-24" style={{color: '#FFF', marginTop: -5}}>play_circle_filled</i>}
                            container="card">
                 A DIY workshop on using React with Redux to build a Instagram clone
             </TimelineEvent>
