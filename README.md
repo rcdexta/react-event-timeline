@@ -74,6 +74,7 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | iconColor | string | CSS color code for icon                  |
 | buttons   | node   | Action buttons to display to the right of the event content |
 | contentStyle | node | Override content style |
+| style | node | Override style for the entire event container |
 | container | string | Optional value `card` will render event as a Card |
 ### Development
 
