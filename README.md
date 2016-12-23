@@ -76,7 +76,8 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | contentStyle | node | Override content style |
 | style | node | Override style for the entire event container |
 | container | string | Optional value `card` will render event as a Card |
-### Development
+
+## Development
 
 This project recommends using [react-storybook](https://github.com/kadirahq/react-storybook) as a UI component development environment. Use the following scripts for your development workflow:
 
@@ -90,6 +91,6 @@ The storybook artefacts can be found in `stories` folder. Run `npm run storybook
  
 Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository. 
 
-### License
+## License
 
 MIT
