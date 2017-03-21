@@ -1,4 +1,4 @@
-#react-event-timeline
+# react-event-timeline
 
 A react component to generate a responsive event-timeline
 
