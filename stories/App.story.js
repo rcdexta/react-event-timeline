@@ -18,7 +18,7 @@ const container = (story) => (
 
 storiesOf('Timeline', module)
     .addDecorator(container)
-    .add('Default View', () => (
+    .addWithInfo('Default View', () => (
         <Timeline>
             <TimelineEvent title="John Doe sent a SMS"
                            createdAt="2016-09-12 10:06 PM"
@@ -43,7 +43,7 @@ storiesOf('Timeline', module)
 
         </Timeline>
     ))
-    .add('Action buttons', () => (
+    .addWithInfo('Action buttons', () => (
         <Timeline>
             <TimelineEvent title="You have sent a SMS"
                            createdAt="2016-10-02 08:02 AM"
@@ -54,7 +54,7 @@ storiesOf('Timeline', module)
             </TimelineEvent>
         </Timeline>
     ))
-    .add('Content with images', () => (
+    .addWithInfo('Content with images', () => (
         <Timeline>
             <TimelineEvent title="John Doe sent a SMS"
                            createdAt="2016-09-12 10:06 PM"
@@ -66,7 +66,7 @@ storiesOf('Timeline', module)
             </TimelineEvent>
         </Timeline>
     ))
-    .add('Card Appearance', () => {
+    .addWithInfo('Card Appearance', () => {
         return <Timeline>
             <TimelineEvent title="Introduction to Redux in React applications"
                            createdAt="2016-09-12 10:06 PM"
@@ -79,7 +79,7 @@ storiesOf('Timeline', module)
             </TimelineEvent>
         </Timeline>
     })
-    .add('Event handlers', () => {
+    .addWithInfo('Event handlers', () => {
         return <Timeline>
             <TimelineEvent title="John Doe sent you a click bomb"
                            createdAt="2016-09-12 10:06 PM"
@@ -90,7 +90,7 @@ storiesOf('Timeline', module)
             </TimelineEvent>
         </Timeline>
     })
-    .add('Custom Styling', () => (
+    .addWithInfo('Custom Styling', () => (
         <Timeline>
             <TimelineEvent title="John Doe sent a SMS"
                            createdAt="2016-09-12 10:06 PM"

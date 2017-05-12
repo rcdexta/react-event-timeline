@@ -27,12 +27,8 @@ class TimelineEvent extends Component {
     return this.showAsCard() ? {...s.eventContainer, ...s.card, ...userStyle} : s.eventContainer
   }
 
-  cardTitleStyle() {
-    return this.showAsCard() ? s.cardTitle : {}
-  }
-
   render() {
-    const {createdAt, title, contentStyle, buttons, icon, iconColor, ...otherProps} = this.props
+    const {createdAt, title, contentStyle, buttons, icon, iconColor, container, ...otherProps} = this.props
     return <div style={s.event}>
       <div style={this.mergeNotificationStyle(iconColor)}>
         <span style={s.materialIcons}>{icon}</span>
@@ -41,7 +37,7 @@ class TimelineEvent extends Component {
 
         <div style={s.eventContainerBefore} />
 
-        <div style={this.cardTitleStyle()}>
+        <div style={container === 'card' ? s.cardTitle : {}}>
           <div style={this.timeStyle()}>{createdAt}</div>
           <div>{title}</div>
           <div style={s.actionButtons}>{buttons}</div>
