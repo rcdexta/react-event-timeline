@@ -19,6 +19,11 @@ See the storybook demo here: https://rcdexta.github.io/react-event-timeline
 ```
 npm install --save react-event-timeline
 ```
+or if you are using `yarn`
+
+```
+yarn add react-event-timeline
+```
 
 ## Usage
 
@@ -81,11 +86,11 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 
 This project recommends using [react-storybook](https://github.com/kadirahq/react-storybook) as a UI component development environment. Use the following scripts for your development workflow:
 
-1. `npm run storybook`: Start developing by using storybook
-1. `npm run lint` : Lint all js files
-1. `npm run lintfix` : fix linting errors of all js files
-1. `npm run build`: transpile all ES6 component files into ES5(commonjs) and put it in `dist` directory
-1. `npm run docs`: create static build of storybook in `docs` directory that can be used for github pages
+1. `yarn storybook`: Start developing by using storybook
+1. `yarn lint` : Lint all js files
+1. `yarn lintfix` : fix linting errors of all js files
+1. `yarn build`: transpile all ES6 component files into ES5(commonjs) and put it in `dist` directory
+1. `yarn docs`: create static build of storybook in `docs` directory that can be used for github pages
 
 The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes live reloaded on the browser
  
