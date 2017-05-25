@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import PropTypes from 'prop-types'
 import s from './styles'
 
 class TimelineEvent extends Component {
@@ -54,15 +55,15 @@ class TimelineEvent extends Component {
 }
 
 TimelineEvent.propTypes = {
-  children: React.PropTypes.node.isRequired,
-  title: React.PropTypes.node.isRequired,
-  createdAt: React.PropTypes.node.isRequired,
-  buttons: React.PropTypes.node,
-  container: React.PropTypes.string,
-  icon: React.PropTypes.node,
-  iconColor: React.PropTypes.string,
-  contentStyle: React.PropTypes.object,
-  style: React.PropTypes.object
+  children: PropTypes.node.isRequired,
+  title: PropTypes.node.isRequired,
+  createdAt: PropTypes.node.isRequired,
+  buttons: PropTypes.node,
+  container: PropTypes.string,
+  icon: PropTypes.node,
+  iconColor: PropTypes.string,
+  contentStyle: PropTypes.object,
+  style: PropTypes.object
 }
 
 export default TimelineEvent

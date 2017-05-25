@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import PropTypes from 'prop-types'
 import s from './styles'
 
 class Timeline extends Component {
@@ -17,7 +18,7 @@ class Timeline extends Component {
 }
 
 Timeline.propTypes = {
-  children: React.PropTypes.node.isRequired
+  children: PropTypes.node.isRequired
 }
 
 export default Timeline
