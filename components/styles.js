@@ -100,6 +100,11 @@ let style = {
     lineHeight: 1.6,
     padding: '1.5em 1em',
     minHeight: 40
+  },
+  blipStyle: {
+    position: 'absolute',
+    top: '50%',
+    marginTop: '9px'
   }
 }
 

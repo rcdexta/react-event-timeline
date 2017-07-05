@@ -71,30 +71,45 @@ This is the wrapper component that creates the infinite vertical timeline
 
 Each event in the timeline will be represented by the `TimelineEvent` component. There can be multiple repeating instances of this component inside Timeline wrapper
 
+| Name         | Type   | Description                              |
+| ------------ | ------ | ---------------------------------------- |
+| title        | node   | The title of the event. Can be string or any DOM element node(s) |
+| createdAt    | node   | The time at which the event occurred. Can be datetime string or any DOM element node(s) |
+| icon         | node   | The icon to show as event lable. Can be a SVG or font icon |
+| iconColor    | string | CSS color code for icon                  |
+| iconStyle    | node   | Custom CSS for the icon                  |
+| buttons      | node   | Action buttons to display to the right of the event content |
+| contentStyle | node   | Override content style                   |
+| style        | node   | Override style for the entire event container |
+| container    | string | Optional value `card` will render event as a Card |
+
+### TimelineBlip
+
+Use this component if your event is too small and can be described in a single line
+
 | Name      | Type   | Description                              |
 | --------- | ------ | ---------------------------------------- |
 | title     | node   | The title of the event. Can be string or any DOM element node(s) |
-| createdAt | node   | The time at which the event occurred. Can be datetime string or any DOM element node(s) |
 | icon      | node   | The icon to show as event lable. Can be a SVG or font icon |
 | iconColor | string | CSS color code for icon                  |
-| iconStyle | node | Custom CSS for the icon                  |
-| buttons   | node   | Action buttons to display to the right of the event content |
-| contentStyle | node | Override content style |
-| style | node | Override style for the entire event container |
-| container | string | Optional value `card` will render event as a Card |
+| iconStyle | node   | Custom CSS for the icon                  |
+| style     | node   | Override style for the entire event container |
+
+Refere to Condensed Timeline in Storybook for examples of using this component
+
 
 ## Development
 
 This project recommends using [react-storybook](https://github.com/kadirahq/react-storybook) as a UI component development environment. Use the following scripts for your development workflow:
 
 1. `yarn storybook`: Start developing by using storybook
-1. `yarn lint` : Lint all js files
-1. `yarn lintfix` : fix linting errors of all js files
-1. `yarn build`: transpile all ES6 component files into ES5(commonjs) and put it in `dist` directory
-1. `yarn docs`: create static build of storybook in `docs` directory that can be used for github pages
+2. `yarn lint` : Lint all js files
+3. `yarn lintfix` : fix linting errors of all js files
+4. `yarn build`: transpile all ES6 component files into ES5(commonjs) and put it in `dist` directory
+5. `yarn docs`: create static build of storybook in `docs` directory that can be used for github pages
 
 The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes live reloaded on the browser
- 
+
 Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository. 
 
 ## License

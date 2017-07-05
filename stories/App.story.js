@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { storiesOf } from '@kadira/storybook'
 
-import { Timeline, TimelineEvent } from '../components/index'
+import { Timeline, TimelineEvent, TimelineBlip } from '../components/index'
 import Image from './sample.jpg'
 
 const globalStyles = {
@@ -39,6 +39,12 @@ storiesOf('Timeline', module)
         <p>- Maya</p>
       </TimelineEvent>
 
+    </Timeline>
+  ))
+  .addWithInfo('Condensed Timeline', () => (
+    <Timeline>
+      <TimelineBlip title="Remove PropTypes warning" icon={<i className="material-icons md-18">assignment late</i>} iconColor="#6fba1c" />
+      <TimelineBlip title="John starred this thread" icon={<i className="material-icons md-18">grade</i>} iconColor="#6fba1c" />
     </Timeline>
   ))
   .addWithInfo('Action buttons', () => (
