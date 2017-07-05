@@ -24,8 +24,8 @@ class TimelineEvent extends Component {
 
   containerStyle() {
     const {style} = this.props
-    const userStyle = style || {}
-    return this.showAsCard() ? {...s.eventContainer, ...s.card, ...userStyle} : s.eventContainer
+    const containerStyle = {...s.eventContainer, ...style}
+    return this.showAsCard() ? {...containerStyle, ...s.card} : containerStyle
   }
 
   iconStyle() {
@@ -72,7 +72,8 @@ TimelineEvent.propTypes = {
 
 TimelineEvent.defaultProps = {
   iconStyle: {},
-  contentStyle: {}
+  contentStyle: {},
+  style: {}
 }
 
 export default TimelineEvent
