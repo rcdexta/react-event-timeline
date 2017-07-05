@@ -55,9 +55,9 @@ class TimelineEvent extends Component {
 }
 
 TimelineEvent.propTypes = {
-  children: PropTypes.node.isRequired,
   title: PropTypes.node.isRequired,
   createdAt: PropTypes.node.isRequired,
+  children: PropTypes.node,
   buttons: PropTypes.node,
   container: PropTypes.string,
   icon: PropTypes.node,
