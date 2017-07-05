@@ -28,16 +28,19 @@ class TimelineEvent extends Component {
     return this.showAsCard() ? {...s.eventContainer, ...s.card, ...userStyle} : s.eventContainer
   }
 
+  iconStyle() {
+    return {...s.materialIcons, ...this.props.iconStyle}
+  }
+
   render() {
     const {createdAt, title, contentStyle, buttons, icon, iconColor, container, ...otherProps} = this.props
     return <div style={s.event}>
       <div style={this.mergeNotificationStyle(iconColor)}>
-        <span style={s.materialIcons}>{icon}</span>
+        <span style={this.iconStyle()}>{icon}</span>
       </div>
+
       <div {...otherProps} style={this.containerStyle()}>
-
         <div style={s.eventContainerBefore} />
-
         <div style={container === 'card' ? s.cardTitle : {}}>
           <div style={this.timeStyle()}>{createdAt}</div>
           <div>{title}</div>
@@ -62,8 +65,14 @@ TimelineEvent.propTypes = {
   container: PropTypes.string,
   icon: PropTypes.node,
   iconColor: PropTypes.string,
+  iconStyle: PropTypes.string,
   contentStyle: PropTypes.object,
   style: PropTypes.object
+}
+
+TimelineEvent.defaultProps = {
+  iconStyle: {},
+  contentStyle: {}
 }
 
 export default TimelineEvent

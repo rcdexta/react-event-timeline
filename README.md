@@ -77,6 +77,7 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | createdAt | node   | The time at which the event occurred. Can be datetime string or any DOM element node(s) |
 | icon      | node   | The icon to show as event lable. Can be a SVG or font icon |
 | iconColor | string | CSS color code for icon                  |
+| iconStyle | node | Custom CSS for the icon                  |
 | buttons   | node   | Action buttons to display to the right of the event content |
 | contentStyle | node | Override content style |
 | style | node | Override style for the entire event container |
