@@ -20,8 +20,8 @@ class TimelineBlip extends Component {
           <span style={this.iconStyle(iconStyle)}>{icon}</span>
         </div>
         <div {...otherProps} style={s.blipStyle}>
-            <div>{title}</div>
-          </div>
+          <div>{title}</div>
+        </div>
         <div style={s.eventAfter} />
       </div>
     )
