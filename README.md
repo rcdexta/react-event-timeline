@@ -77,11 +77,11 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | createdAt    | node   | The time at which the event occurred. Can be datetime string or any DOM element node(s) |
 | icon         | node   | The icon to show as event lable. Can be a SVG or font icon |
 | iconColor    | string | CSS color code for icon                  |
-| iconStyle    | node   | Custom CSS for the icon                  |
+| iconStyle    | object   | Custom CSS for the icon                  |
 | buttons      | node   | Action buttons to display to the right of the event content |
 | contentStyle | node   | Override content style                   |
-| style        | node   | Override style for the entire event container |
 | container    | string | Optional value `card` will render event as a Card |
+| style        | object   | Override style for the entire event container. Can be used to modify card appearance if container is selected as `card` |
 
 ### TimelineBlip
 
@@ -92,8 +92,8 @@ Use this component if your event is too small and can be described in a single l
 | title     | node   | The title of the event. Can be string or any DOM element node(s) |
 | icon      | node   | The icon to show as event lable. Can be a SVG or font icon |
 | iconColor | string | CSS color code for icon                  |
-| iconStyle | node   | Custom CSS for the icon                  |
-| style     | node   | Override style for the entire event container |
+| iconStyle | object   | Custom CSS for the icon                  |
+| style     | object   | Override style for the entire event container |
 
 Refere to Condensed Timeline in Storybook for examples of using this component
 

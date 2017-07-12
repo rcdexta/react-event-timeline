@@ -76,9 +76,9 @@ storiesOf('Timeline', module)
           createdAt="2016-09-12 10:06 PM"
           icon={<i className="material-icons md-18">event</i>}
           iconColor="#757575"
-          style={{ fontWeight: 400, color: '#828282c' }}
           buttons={<i className="material-icons md-24" style={{ color: '#FFF', marginTop: -5 }}>play_circle_filled</i>}
           container="card"
+          style={{boxShadow: '0 0 6px 1px #BD3B36', border: '1px solid #777', borderRadius: 3, fontWeight: 400, color: '#828282c'}}
         >
           A DIY workshop on using React with Redux to build a Instagram clone
         </TimelineEvent>
@@ -107,7 +107,7 @@ storiesOf('Timeline', module)
         createdAt="2016-09-12 10:06 PM"
         icon={<i className="material-icons md-18">textsms</i>}
         iconColor="#6fba1c"
-        style={{ backgroundColor: '#fff', padding: 10 }}
+        style={{ backgroundColor: '#fff', padding: 10, boxShadow: '0 0 3px 1px #BD3B36', border: '1px solid #eee' }}
         contentStyle={{ backgroundColor: '#00BCD4', color: '#fff' }}
       >
         This message should appear on a different background
