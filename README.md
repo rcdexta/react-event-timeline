@@ -82,6 +82,7 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | contentStyle | node   | Override content style                   |
 | container    | string | Optional value `card` will render event as a Card |
 | style        | object   | Override style for the entire event container. Can be used to modify card appearance if container is selected as `card` |
+| cardHeaderStyle | object | Override style for the card header if container is `card` |
 
 ### TimelineBlip
 

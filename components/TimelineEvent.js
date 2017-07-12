@@ -13,7 +13,7 @@ class TimelineEvent extends Component {
   }
 
   timeStyle() {
-    return this.showAsCard() ? { ...s.time, color: '#fff' } : s.time
+    return this.showAsCard() ? s.time : { ...s.time, color: '#303e49' }
   }
 
   showAsCard() {
@@ -32,7 +32,7 @@ class TimelineEvent extends Component {
   }
 
   render() {
-    const { createdAt, title, contentStyle, iconStyle, buttons, icon, iconColor, container, ...otherProps } = this.props
+    const { createdAt, title, contentStyle, iconStyle, buttons, icon, iconColor, container, cardHeaderStyle, ...otherProps } = this.props
     return (
       <div style={s.event}>
         <div style={this.mergeNotificationStyle(iconColor)}>
@@ -40,7 +40,7 @@ class TimelineEvent extends Component {
         </div>
         <div {...otherProps} style={this.containerStyle()}>
           <div style={s.eventContainerBefore} />
-          <div style={container === 'card' ? s.cardTitle : {}}>
+          <div style={container === 'card' ? { ...s.cardTitle, ...cardHeaderStyle } : {}}>
             <div style={this.timeStyle()}>{createdAt}</div>
             <div>{title}</div>
             <div style={s.actionButtons}>{buttons}</div>
@@ -67,6 +67,7 @@ TimelineEvent.propTypes = {
   iconColor: PropTypes.string,
   iconStyle: PropTypes.object,
   contentStyle: PropTypes.object,
+  cardHeaderStyle: PropTypes.object,
   style: PropTypes.object
 }
 
@@ -74,6 +75,8 @@ TimelineEvent.defaultProps = {
   createdAt: undefined,
   iconStyle: {},
   contentStyle: {},
+  cardHeaderStyle: {},
+  cardBodyStyle: {},
   style: {}
 }
 

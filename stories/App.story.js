@@ -79,8 +79,19 @@ storiesOf('Timeline', module)
           buttons={<i className="material-icons md-24" style={{ color: '#FFF', marginTop: -5 }}>play_circle_filled</i>}
           container="card"
           style={{boxShadow: '0 0 6px 1px #BD3B36', border: '1px solid #777', borderRadius: 3, fontWeight: 400, color: '#828282c'}}
+          cardHeaderStyle={{backgroundColor: '#8bc34a', color: '#503331'}}
         >
-          A DIY workshop on using React with Redux to build a Instagram clone
+          Card as timeline event with custom container and header styling
+        </TimelineEvent>
+        <TimelineEvent
+          title="Introduction to Redux in React applications"
+          createdAt="2016-09-12 10:06 PM"
+          icon={<i className="material-icons md-18">event</i>}
+          iconColor="#757575"
+          buttons={<i className="material-icons md-24" style={{ color: '#FFF', marginTop: -5 }}>play_circle_filled</i>}
+          container="card"
+        >
+          A simple card with sensible defaults for styling
         </TimelineEvent>
       </Timeline>
     )
