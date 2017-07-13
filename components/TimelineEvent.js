@@ -76,7 +76,6 @@ TimelineEvent.defaultProps = {
   iconStyle: {},
   contentStyle: {},
   cardHeaderStyle: {},
-  cardBodyStyle: {},
   style: {}
 }
 
