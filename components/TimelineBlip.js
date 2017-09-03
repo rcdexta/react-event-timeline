@@ -37,9 +37,7 @@ TimelineBlip.propTypes = {
 }
 
 TimelineBlip.defaultProps = {
-  createdAt: undefined,
   iconStyle: {},
-  contentStyle: {},
   style: {}
 }
 
