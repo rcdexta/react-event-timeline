@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {storiesOf} from '@storybook/react'
+import { withInfo } from '@storybook/addon-info';
 import {Timeline, TimelineEvent, TimelineBlip} from '../components/index'
 import Image from './sample.jpg'
 
@@ -16,7 +17,7 @@ const container = story =>
 
 storiesOf('Timeline', module)
   .addDecorator(container)
-  .add('Default View', () =>
+  .add('Default View', withInfo('Timeline view with sensible defaults')(() =>
     <Timeline>
       <TimelineEvent title="John Doe sent a SMS" createdAt="2016-09-12 10:06 PM" icon={<i className="material-icons md-18">textsms</i>} iconColor="#6fba1c">
         I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the
@@ -37,8 +38,8 @@ storiesOf('Timeline', module)
         <p>- Maya</p>
       </TimelineEvent>
     </Timeline>
-  )
-  .add('Condensed Timeline', () =>
+  ))
+  .add('Condensed Timeline', withInfo('Use TimelineBlip to display micro events')(() =>
     <Timeline>
       <TimelineBlip
         title='Remove PropTypes warning'
@@ -51,8 +52,8 @@ storiesOf('Timeline', module)
         iconColor='#6fba1c'
       />
     </Timeline>
-  )
-  .add('Action buttons', () =>
+  ))
+  .add('Action buttons', withInfo('Checkout the reply button to the top right corner of the event')(() =>
     <Timeline>
       <TimelineEvent
         title='You have sent a SMS'
@@ -68,8 +69,8 @@ storiesOf('Timeline', module)
         You should be receiving the shipment by tomorrow evening. Please reply back if you have more questions
       </TimelineEvent>
     </Timeline>
-  )
-  .add('Content with images', () =>
+  ))
+  .add('Content with images', withInfo('The event can contain any content include media')(() =>
     <Timeline>
       <TimelineEvent
         title='John Doe sent a SMS'
@@ -81,8 +82,8 @@ storiesOf('Timeline', module)
         <img src={Image} />
       </TimelineEvent>
     </Timeline>
-  )
-  .add('Card Appearance', () => {
+  ))
+  .add('Card Appearance', withInfo('Timeline event container can be modelled as a card')(() => {
     return (
       <Timeline>
         <TimelineEvent
@@ -123,8 +124,8 @@ storiesOf('Timeline', module)
         </TimelineEvent>
       </Timeline>
     )
-  })
-  .add('Event handlers', () => {
+  }))
+  .add('Event handlers', withInfo('Timeline events can listen to user actions')(() => {
     return (
       <Timeline>
         <TimelineEvent
@@ -138,8 +139,8 @@ storiesOf('Timeline', module)
         </TimelineEvent>
       </Timeline>
     )
-  })
-  .add('Custom Styling', () =>
+  }))
+  .add('Custom Styling', withInfo('TimelineEvent is completely customizable')(() =>
     <Timeline>
       <TimelineEvent
         title='John Doe sent a SMS'
@@ -152,8 +153,8 @@ storiesOf('Timeline', module)
         This message should appear on a different background
       </TimelineEvent>
     </Timeline>
-  )
-  .add('Dynamic Prop Updates', () => {
+  ))
+  .add('Dynamic Prop Updates', withInfo('Props passed to the events are updated in realtime')(() => {
     class DynamicTimeline extends Component {
       constructor(props) {
         super(props)
@@ -188,4 +189,4 @@ storiesOf('Timeline', module)
       }
     }
     return <DynamicTimeline />
-  })
+  }))

@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/rcdexta/react-event-timeline",
   "devDependencies": {
+    "@storybook/addon-info": "^3.2.9",
     "@storybook/addon-knobs": "^3.2.8",
     "@storybook/addon-options": "^3.2.6",
     "@storybook/cli": "^3.2.8",
