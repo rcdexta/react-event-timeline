@@ -1,6 +1,6 @@
 # react-event-timeline
 
-A react component to generate a responsive event-timeline
+A react component to generate responsive event timeline.
 
 [![npm version](https://badge.fury.io/js/react-event-timeline.svg)](https://badge.fury.io/js/react-event-timeline)
 [![Build Status](https://travis-ci.org/rcdexta/react-event-timeline.svg?branch=master)](https://travis-ci.org/rcdexta/react-event-timeline)
@@ -17,21 +17,21 @@ See the storybook demo here: https://rcdexta.github.io/react-event-timeline
 
 ## Getting started
 
+To install the dependency 
 ```
 npm install --save react-event-timeline
 ```
-or if you are using `yarn`
-
+or if you use `yarn`
 ```
 yarn add react-event-timeline
 ```
 
 ## Usage
 
-The following snippet generates the timeline you see in the demo:
+The following snippet generates the timeline you see in the screenshot:
 
 ```jsx
-import {Timeline, TimelineEvent} from '../components/index'
+import {Timeline, TimelineEvent} from 'react-event-timeline'
 
 ReactDOM.render(
     <Timeline>
@@ -65,12 +65,12 @@ This is the wrapper component that creates the infinite vertical timeline
 
 | Name      | Type   | Description                              |
 | --------- | ------ | ---------------------------------------- |
-| className | string | The css class name of the root timeline element |
-| style     | object | Override the inline styles of the timeline element |
+| className | string | The css class name of timeline container|
+| style     | object | Override inline styles of timeline container |
 
 ### TimelineEvent
 
-Each event in the timeline will be represented by the `TimelineEvent` component. There can be multiple repeating instances of this component inside Timeline wrapper
+Each event in the timeline will be represented by the `TimelineEvent` component. There can be multiple repeating instances of this component inside `Timeline` wrapper
 
 | Name         | Type   | Description                              |
 | ------------ | ------ | ---------------------------------------- |
@@ -87,7 +87,7 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 
 ### TimelineBlip
 
-Use this component if your event is too small and can be described in a single line
+Use this component if your event footprint is too small and can be described in a single line
 
 | Name      | Type   | Description                              |
 | --------- | ------ | ---------------------------------------- |
@@ -97,7 +97,7 @@ Use this component if your event is too small and can be described in a single l
 | iconStyle | object   | Custom CSS styling for the icon                  |
 | style     | object   | Override style for the entire event container |
 
-Refere to Condensed Timeline in Storybook for examples of using this component
+Refer to Condensed Timeline in Storybook for examples of using this component
 
 
 ## Development
