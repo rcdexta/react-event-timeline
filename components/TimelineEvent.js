@@ -36,6 +36,7 @@ class TimelineEvent extends Component {
     const {
       createdAt,
       title,
+      subtitle,
       contentStyle,
       iconStyle,
       buttons,
@@ -43,6 +44,8 @@ class TimelineEvent extends Component {
       iconColor,
       container,
       cardHeaderStyle,
+      titleStyle,
+      subtitleStyle,
       ...otherProps
     } = this.props
     return (
@@ -55,12 +58,17 @@ class TimelineEvent extends Component {
         <div {...otherProps} style={this.containerStyle()}>
           <div style={s.eventContainerBefore} />
           <div style={container === 'card' ? {...s.cardTitle, ...cardHeaderStyle} : {}}>
-            <div style={this.timeStyle()}>
-              {createdAt}
-            </div>
-            <div>
+            {createdAt &&
+              <div style={this.timeStyle()}>
+                {createdAt}
+              </div>}
+            <div style={titleStyle}>
               {title}
             </div>
+            {subtitle &&
+              <div style={{...s.subtitle, ...subtitleStyle}}>
+                {subtitle}
+              </div>}
             <div style={s.actionButtons}>
               {buttons}
             </div>
@@ -79,7 +87,8 @@ class TimelineEvent extends Component {
 
 TimelineEvent.propTypes = {
   title: PropTypes.node.isRequired,
-  createdAt: PropTypes.node.isRequired,
+  subtitle: PropTypes.node,
+  createdAt: PropTypes.node,
   children: PropTypes.node,
   buttons: PropTypes.node,
   container: PropTypes.string,
@@ -88,7 +97,9 @@ TimelineEvent.propTypes = {
   iconStyle: PropTypes.object,
   contentStyle: PropTypes.object,
   cardHeaderStyle: PropTypes.object,
-  style: PropTypes.object
+  style: PropTypes.object,
+  titleStyle: PropTypes.object,
+  subtitleStyle: PropTypes.object
 }
 
 TimelineEvent.defaultProps = {
@@ -96,7 +107,9 @@ TimelineEvent.defaultProps = {
   iconStyle: {},
   contentStyle: {},
   cardHeaderStyle: {},
-  style: {}
+  style: {},
+  titleStyle: {},
+  subtitleStyle: {}
 }
 
 export default TimelineEvent

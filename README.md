@@ -76,6 +76,7 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | ------------ | ------ | ---------------------------------------- |
 | title        | node   | The title of the event. Can be string or any DOM element node(s) |
 | createdAt    | node   | The time at which the event occurred. Can be datetime string or any DOM element node(s) |
+| subtitle     | node   | If you prefer having the title at the top and some caption below, omit createdAt and specify title and subtitle |
 | icon         | node   | The icon to show as event lable. Can be a SVG or font icon |
 | bubbleColor    | string | CSS color code for bubble                  |
 | iconStyle    | object   | Custom CSS styling for the icon                  |
@@ -83,6 +84,8 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | contentStyle | node   | Override content style                   |
 | container    | string | Optional value `card` will render event as a Card |
 | style        | object   | Override style for the entire event container. Can be used to modify card appearance if container is selected as `card` |
+| titleStyle   | object   | Override style for the title content |
+| subtitleStyle | object | Override style for the subtitle content |
 | cardHeaderStyle | object | Override style for the card header if container is `card` |
 
 ### TimelineBlip

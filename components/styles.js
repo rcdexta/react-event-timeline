@@ -65,6 +65,11 @@ let style = {
   time: {
     marginBottom: 3
   },
+  subtitle: {
+    marginTop: 2,
+    fontSize: '85%',
+    color: '#777'
+  },
   message: {
     width: '98%',
     backgroundColor: '#ffffff',
