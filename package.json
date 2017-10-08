@@ -4,11 +4,7 @@
   "main": "dist/index.js",
   "jsnext:main": "components/index.js",
   "module": "components/index.js",
-  "files": [
-    "src",
-    "dist",
-    "README"
-  ],
+  "files": ["src", "dist", "README"],
   "scripts": {
     "lint": "eslint components/** tests/**",
     "lintfix": "eslint --fix components/** tests/**",
@@ -27,11 +23,7 @@
     "type": "git",
     "url": "https://github.com/rcdexta/react-event-timeline.git"
   },
-  "keywords": [
-    "react",
-    "timeline",
-    "notification"
-  ],
+  "keywords": ["react", "timeline", "notification"],
   "author": "RC",
   "license": "MIT",
   "bugs": {
@@ -73,12 +65,15 @@
     "rimraf": "^2.5.4",
     "sass-loader": "^4.0.2",
     "semantic-release": "^6.3.6",
-    "sinon": "^1.17.6"
-  },
-  "dependencies": {
-    "prop-types": "^15.6.0",
+    "sinon": "^1.17.6",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react": ">= 0.14.0 < 17.0.0-0"
   },
   "config": {
     "commitizen": {
