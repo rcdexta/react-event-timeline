@@ -39,15 +39,14 @@
   },
   "homepage": "https://github.com/rcdexta/react-event-timeline",
   "devDependencies": {
-    "@storybook/addon-info": "^3.2.9",
-    "@storybook/addon-knobs": "^3.2.8",
-    "@storybook/addon-options": "^3.2.6",
-    "@storybook/cli": "^3.2.8",
-    "@storybook/react": "^3.2.8",
+    "@storybook/addon-info": "^3.2.12",
+    "@storybook/addon-options": "^3.2.12",
+    "@storybook/cli": "^3.2.12",
+    "@storybook/react": "^3.2.12",
     "@storybook/storybook-deployer": "^2.0.0",
     "autoprefixer": "^6.4.1",
-    "babel-cli": "^6.16.0",
-    "babel-core": "^6.17.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
@@ -73,13 +72,13 @@
     "react-addons-test-utils": "^15.3.2",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.0.2",
-    "semantic-release": "^4.3.5",
+    "semantic-release": "^6.3.6",
     "sinon": "^1.17.6"
   },
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "config": {
     "commitizen": {
