@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import s from './styles'
 
 class TimelineEvent extends Component {
+
   mergeNotificationStyle(iconColor, bubbleStyle) {
     const iconColorStyle = iconColor ? {...s.eventType, ...{color: iconColor, borderColor: iconColor}} : s.eventType
     return {...iconColorStyle, ...bubbleStyle}
@@ -28,10 +29,6 @@ class TimelineEvent extends Component {
     return this.showAsCard() ? {...containerStyle, ...s.card} : containerStyle
   }
 
-  iconStyle(iconStyle) {
-    return {...s.materialIcons, ...iconStyle}
-  }
-
   render() {
     const {
       createdAt,
@@ -39,6 +36,7 @@ class TimelineEvent extends Component {
       subtitle,
       contentStyle,
       iconStyle,
+      bubbleStyle,
       buttons,
       icon,
       iconColor,
@@ -50,8 +48,8 @@ class TimelineEvent extends Component {
     } = this.props
     return (
       <div style={s.event}>
-        <div style={this.mergeNotificationStyle(iconColor, iconStyle)}>
-          <span style={s.materialIcons}>
+        <div style={this.mergeNotificationStyle(iconColor, bubbleStyle)}>
+          <span style={{...s.materialIcons, ...iconStyle}}>
             {icon}
           </span>
         </div>
@@ -95,6 +93,7 @@ TimelineEvent.propTypes = {
   icon: PropTypes.node,
   iconColor: PropTypes.string,
   iconStyle: PropTypes.object,
+  bubbleStyle: PropTypes.object,
   contentStyle: PropTypes.object,
   cardHeaderStyle: PropTypes.object,
   style: PropTypes.object,
@@ -105,6 +104,7 @@ TimelineEvent.propTypes = {
 TimelineEvent.defaultProps = {
   createdAt: undefined,
   iconStyle: {},
+  bubbleStyle: {},
   contentStyle: {},
   cardHeaderStyle: {},
   style: {},

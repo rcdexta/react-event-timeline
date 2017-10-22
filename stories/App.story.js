@@ -52,7 +52,7 @@ storiesOf('Timeline', module)
       <Timeline>
         <TimelineBlip
           title='Remove PropTypes warning'
-          icon={<i className='material-icons md-18'>assignment late</i>}
+          icon={<i className='material-icons md-18'>assignment_late</i>}
           iconColor='#6fba1c'
         />
         <TimelineBlip
@@ -180,17 +180,26 @@ storiesOf('Timeline', module)
     )
   )
   .add(
-    'Icon Styling',
-    withInfo('Play with the even icons')(() =>
+    'Icon and Bubble Styling',
+    withInfo('Modify the appearance of bubbles and containing icons')(() =>
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
           createdAt='2016-09-12 10:06 PM'
           icon={<i className='material-icons md-18'>textsms</i>}
           iconColor='#6fba1c'
-          iconStyle={{backgroundColor: '#00ff81'}}
+          bubbleStyle={{backgroundColor: '#00ff81'}}
         >
           Notice the style variations to the bubble and icons
+        </TimelineEvent>
+        <TimelineEvent
+          title={'Phone event'}
+          createdAt='2016-10-12 12:12 AM'
+          icon={<i className='material-icons md-18'>phone</i>}
+          iconStyle={{marginLeft: 1, marginTop: 0}}
+          iconColor='#5C6BC0'
+        >
+          John called!
         </TimelineEvent>
       </Timeline>
     )
@@ -232,32 +241,33 @@ storiesOf('Timeline', module)
         }
       }
       return <DynamicTimeline />
-    }))
-    .add(
-        'Title and Subtitle styling',
-        withInfo('Add your own title and subtitle to events')(() =>
-            <Timeline>
-              <TimelineEvent
-                  title='John Doe sent a SMS'
-                  subtitle='☞ Needs RSVP'
-                  subtitleStyle={{color: '#2962FF'}}
-                  icon={<i className='material-icons md-18'>textsms</i>}
-                  iconColor='#6fba1c'
-              >
-                I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
-              </TimelineEvent>
-              <TimelineEvent
-                  title='You sent an email to John Doe'
-                  titleStyle={{fontWeight: 'bold'}}
-                  subtitle='✔ Mail delivered'
-                  subtitleStyle={{color: 'green'}}
-                  icon={<i className='material-icons md-18'>email</i>}
-                  iconColor='#03a9f4'
-              >
-                  Like we talked, you said that you would share the shipment details? This is an urgent order and so I am
-                  losing patience. Can you expedite the process and pls do share the details asap. Consider this a gentle
-                  reminder if you are on track already!
-              </TimelineEvent>
-            </Timeline>
-        )
+    })
+  )
+  .add(
+    'Title and Subtitle styling',
+    withInfo('Add your own title and subtitle to events')(() =>
+      <Timeline>
+        <TimelineEvent
+          title='John Doe sent a SMS'
+          subtitle='☞ Needs RSVP'
+          subtitleStyle={{color: '#2962FF'}}
+          icon={<i className='material-icons md-18'>textsms</i>}
+          iconColor='#6fba1c'
+        >
+          I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
+        </TimelineEvent>
+        <TimelineEvent
+          title='You sent an email to John Doe'
+          titleStyle={{fontWeight: 'bold'}}
+          subtitle='✔ Mail delivered'
+          subtitleStyle={{color: 'green'}}
+          icon={<i className='material-icons md-18'>email</i>}
+          iconColor='#03a9f4'
+        >
+          Like we talked, you said that you would share the shipment details? This is an urgent order and so I am losing
+          patience. Can you expedite the process and pls do share the details asap. Consider this a gentle reminder if
+          you are on track already!
+        </TimelineEvent>
+      </Timeline>
     )
+  )

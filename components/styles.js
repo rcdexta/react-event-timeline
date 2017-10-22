@@ -39,19 +39,19 @@ let style = {
     borderRadius: '50%',
     width: 30,
     height: 30,
-    marginLeft: 2,
+    marginLeft: 1,
     background: '#e9f0f5',
-    border: '2px solid #6fba1c'
+    border: '2px solid #6fba1c',
+    display: 'flex'
   },
   materialIcons: {
-    display: 'block',
+    display: 'flex',
     width: 32,
     height: 32,
     position: 'relative',
-    left: '50%',
-    top: '50%',
-    marginLeft: -8,
-    marginTop: -8
+    justifyContent: 'center',
+    alignSelf: 'center',
+    alignItems: 'center'
   },
   eventContainer: {
     position: 'relative'
