@@ -78,8 +78,8 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | createdAt    | node   | The time at which the event occurred. Can be datetime string or any DOM element node(s) |
 | subtitle     | node   | If you prefer having the title at the top and some caption below, omit createdAt and specify title and subtitle |
 | icon         | node   | The icon to show as event lable. Can be a SVG or font icon |
-| bubbleColor    | string | CSS color code for bubble                  |
 | iconStyle    | object   | Custom CSS styling for the icon                  |
+| bubbleStyle  | object  | Custom CSS styling for the bubble containing the icon |
 | buttons      | node   | Action buttons to display to the right of the event content |
 | contentStyle | node   | Override content style                   |
 | container    | string | Optional value `card` will render event as a Card |
