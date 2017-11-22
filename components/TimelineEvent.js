@@ -26,7 +26,7 @@ class TimelineEvent extends Component {
   containerStyle() {
     const {style} = this.props
     const containerStyle = {...s.eventContainer, ...style}
-    return this.showAsCard() ? {...containerStyle, ...s.card} : containerStyle
+    return this.showAsCard() ? {...s.card, ...containerStyle} : containerStyle
   }
 
   render() {
