@@ -1,21 +1,20 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import s from './styles'
 
 class TimelineBlip extends Component {
-
   mergeNotificationStyle(iconColor) {
-    return iconColor ? { ...s.eventType, ...{ color: iconColor, borderColor: iconColor } } : s.eventType
+    return iconColor ? {...s.eventType, ...{color: iconColor, borderColor: iconColor}} : s.eventType
   }
 
   iconStyle(iconStyle) {
-    return { ...s.materialIcons, iconStyle }
+    return {...s.materialIcons, ...iconStyle}
   }
 
   render() {
-    const { title, iconStyle, icon, iconColor, ...otherProps } = this.props
+    const {title, iconStyle, icon, iconColor, style, ...otherProps} = this.props
     return (
-      <div style={{...s.event, marginBottom: 50}}>
+      <div style={{...s.event, marginBottom: 50, ...style}}>
         <div style={this.mergeNotificationStyle(iconColor)}>
           <span style={this.iconStyle(iconStyle)}>{icon}</span>
         </div>

@@ -52,8 +52,12 @@ storiesOf('Timeline', module)
       <Timeline>
         <TimelineBlip
           title='Remove PropTypes warning'
+					iconStyle={{marginLeft: 1, marginTop: 0}}
           icon={<i className='material-icons md-18'>assignment_late</i>}
-          iconColor='#6fba1c'
+          iconColor='#03a9f4'
+					style={{
+						color: '#9c27b0'
+					}}
         />
         <TimelineBlip
           title='John starred this thread'
