@@ -17,10 +17,10 @@ let style = {
     background: '#a0b2b8'
   },
   'containerBefore--left': {
-      left: '16px',
+    left: '16px'
   },
   'containerBefore--right': {
-      right: '14px',
+    right: '14px'
   },
   containerAfter: {
     content: '',
@@ -29,15 +29,15 @@ let style = {
   },
   event: {
     position: 'relative',
-	  margin: '10px 0',
+    margin: '10px 0'
   },
   'event--left': {
-	  paddingLeft: 45,
-	  textAlign: 'left'
+    paddingLeft: 45,
+    textAlign: 'left'
   },
   'event--right': {
-	  paddingRight: 45,
-      textAlign: 'right'
+    paddingRight: 45,
+    textAlign: 'right'
   },
   eventAfter: {
     clear: 'both',
@@ -55,11 +55,11 @@ let style = {
     border: '2px solid #6fba1c',
     display: 'flex'
   },
-  "eventType--left": {
-	  left: 0,
+  'eventType--left': {
+    left: 0
   },
-  "eventType--right": {
-      right: 0,
+  'eventType--right': {
+    right: 0
   },
   materialIcons: {
     display: 'flex',
@@ -105,12 +105,12 @@ let style = {
     marginTop: -20
   },
   'actionButtons--left': {
-      float: 'left',
-      textAlign: 'left',
+    float: 'left',
+    textAlign: 'left'
   },
   'actionButtons--right': {
-      float: 'right',
-      textAlign: 'right',
+    float: 'right',
+    textAlign: 'right'
   },
   card: {
     boxShadow: 'rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px',
@@ -133,6 +133,6 @@ let style = {
     top: '50%',
     marginTop: '9px'
   }
-};
+}
 
 export default style

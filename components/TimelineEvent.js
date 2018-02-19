@@ -3,15 +3,14 @@ import PropTypes from 'prop-types'
 import s from './styles'
 
 class TimelineEvent extends Component {
-
   mergeNotificationStyle(iconColor, bubbleStyle, bubblePosition) {
-    const iconColorStyle = iconColor ? {...s.eventType, ...{color: iconColor, borderColor: iconColor}} : s.eventType;
-    const leftOrRight = (bubblePosition === 'right') ? {...s["eventType--right"]} : {...s["eventType--left"]};
+    const iconColorStyle = iconColor ? {...s.eventType, ...{color: iconColor, borderColor: iconColor}} : s.eventType
+    const leftOrRight = (bubblePosition === 'right') ? {...s['eventType--right']} : {...s['eventType--left']}
     return {...iconColorStyle, ...bubbleStyle, ...leftOrRight}
   }
 
   mergeContentStyle(contentStyle) {
-    const messageStyle = this.showAsCard() ? s.cardBody : s.message;
+    const messageStyle = this.showAsCard() ? s.cardBody : s.message
     return contentStyle ? {...messageStyle, ...contentStyle} : messageStyle
   }
 
@@ -20,13 +19,13 @@ class TimelineEvent extends Component {
   }
 
   showAsCard() {
-    const {container} = this.props;
+    const {container} = this.props
     return container === 'card'
   }
 
   containerStyle() {
-    const {style} = this.props;
-    const containerStyle = {...s.eventContainer, ...style};
+    const {style} = this.props
+    const containerStyle = {...s.eventContainer, ...style}
     return this.showAsCard() ? {...s.card, ...containerStyle} : containerStyle
   }
 
@@ -47,9 +46,9 @@ class TimelineEvent extends Component {
       subtitleStyle,
       bubblePosition,
       ...otherProps
-    } = this.props;
-    const leftOrRightEvent = (bubblePosition === 'right') ? {...s["event--right"]} : {...s["event--left"]};
-    const leftOrRightButton = (bubblePosition === 'left') ? {...s["actionButtons--right"]} : {...s["actionButtons--left"]};
+    } = this.props
+    const leftOrRightEvent = (bubblePosition === 'right') ? {...s['event--right']} : {...s['event--left']}
+    const leftOrRightButton = (bubblePosition === 'left') ? {...s['actionButtons--right']} : {...s['actionButtons--left']}
     return (
       <div style={{...s.event, ...leftOrRightEvent}}>
         <div style={this.mergeNotificationStyle(iconColor, bubbleStyle, bubblePosition)}>
@@ -104,7 +103,7 @@ TimelineEvent.propTypes = {
   style: PropTypes.object,
   titleStyle: PropTypes.object,
   subtitleStyle: PropTypes.object
-};
+}
 
 TimelineEvent.defaultProps = {
   createdAt: undefined,
@@ -116,6 +115,6 @@ TimelineEvent.defaultProps = {
   titleStyle: {},
   subtitleStyle: {},
   bubblePosition: 'left'
-};
+}
 
 export default TimelineEvent
