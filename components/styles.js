@@ -12,10 +12,15 @@ let style = {
     content: '',
     position: 'absolute',
     top: 0,
-    left: 18,
     height: '100%',
     width: 2,
     background: '#a0b2b8'
+  },
+  'containerBefore--left': {
+      left: '16px',
+  },
+  'containerBefore--right': {
+      right: '14px',
   },
   containerAfter: {
     content: '',
@@ -24,8 +29,15 @@ let style = {
   },
   event: {
     position: 'relative',
-    margin: '10px 0',
-    paddingLeft: 45
+	  margin: '10px 0',
+  },
+  'event--left': {
+	  paddingLeft: 45,
+	  textAlign: 'left'
+  },
+  'event--right': {
+	  paddingRight: 45,
+      textAlign: 'right'
   },
   eventAfter: {
     clear: 'both',
@@ -35,7 +47,6 @@ let style = {
   eventType: {
     position: 'absolute',
     top: 0,
-    left: 0,
     borderRadius: '50%',
     width: 30,
     height: 30,
@@ -43,6 +54,12 @@ let style = {
     background: '#e9f0f5',
     border: '2px solid #6fba1c',
     display: 'flex'
+  },
+  "eventType--left": {
+	  left: 0,
+  },
+  "eventType--right": {
+      right: 0,
   },
   materialIcons: {
     display: 'flex',
@@ -85,9 +102,15 @@ let style = {
     display: 'table'
   },
   actionButtons: {
-    float: 'right',
-    textAlign: 'right',
     marginTop: -20
+  },
+  'actionButtons--left': {
+      float: 'left',
+      textAlign: 'left',
+  },
+  'actionButtons--right': {
+      float: 'right',
+      textAlign: 'right',
   },
   card: {
     boxShadow: 'rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px',
@@ -110,6 +133,6 @@ let style = {
     top: '50%',
     marginTop: '9px'
   }
-}
+};
 
 export default style
