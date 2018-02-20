@@ -63,10 +63,11 @@ Please refer to [story description](https://github.com/rcdexta/react-event-timel
 
 This is the wrapper component that creates the infinite vertical timeline
 
-| Name      | Type   | Description                              |
-| --------- | ------ | ---------------------------------------- |
-| className | string | The css class name of timeline container|
-| style     | object | Override inline styles of timeline container |
+| Name           | Type   | Description                              |
+| -------------- | ------ | ---------------------------------------- |
+| className      | string | The css class name of timeline container|
+| style          | object | Override inline styles of timeline container |
+| bubblePosition | string | Display the timeline at `right` or `left`. Default: `left` |
 
 ### TimelineEvent
 

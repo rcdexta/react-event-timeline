@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import s from './styles'
 
 class TimelineEvent extends Component {
-
-  mergeNotificationStyle(iconColor, bubbleStyle) {
+  mergeNotificationStyle(iconColor, bubbleStyle, bubblePosition) {
     const iconColorStyle = iconColor ? {...s.eventType, ...{color: iconColor, borderColor: iconColor}} : s.eventType
-    return {...iconColorStyle, ...bubbleStyle}
+    const leftOrRight = (bubblePosition === 'right') ? {...s['eventType--right']} : {...s['eventType--left']}
+    return {...iconColorStyle, ...bubbleStyle, ...leftOrRight}
   }
 
   mergeContentStyle(contentStyle) {
@@ -44,11 +44,14 @@ class TimelineEvent extends Component {
       cardHeaderStyle,
       titleStyle,
       subtitleStyle,
+      bubblePosition,
       ...otherProps
     } = this.props
+    const leftOrRightEvent = (bubblePosition === 'right') ? {...s['event--right']} : {...s['event--left']}
+    const leftOrRightButton = (bubblePosition === 'left') ? {...s['actionButtons--right']} : {...s['actionButtons--left']}
     return (
-      <div style={s.event}>
-        <div style={this.mergeNotificationStyle(iconColor, bubbleStyle)}>
+      <div style={{...s.event, ...leftOrRightEvent}}>
+        <div style={this.mergeNotificationStyle(iconColor, bubbleStyle, bubblePosition)}>
           <span style={{...s.materialIcons, ...iconStyle}}>
             {icon}
           </span>
@@ -67,7 +70,7 @@ class TimelineEvent extends Component {
               <div style={{...s.subtitle, ...subtitleStyle}}>
                 {subtitle}
               </div>}
-            <div style={s.actionButtons}>
+            <div style={{...s.actionButtons, ...leftOrRightButton}}>
               {buttons}
             </div>
           </div>
@@ -94,6 +97,7 @@ TimelineEvent.propTypes = {
   iconColor: PropTypes.string,
   iconStyle: PropTypes.object,
   bubbleStyle: PropTypes.object,
+  bubblePosition: PropTypes.string,
   contentStyle: PropTypes.object,
   cardHeaderStyle: PropTypes.object,
   style: PropTypes.object,
@@ -109,7 +113,8 @@ TimelineEvent.defaultProps = {
   cardHeaderStyle: {},
   style: {},
   titleStyle: {},
-  subtitleStyle: {}
+  subtitleStyle: {},
+  bubblePosition: 'left'
 }
 
 export default TimelineEvent
