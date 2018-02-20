@@ -47,10 +47,10 @@ class TimelineEvent extends Component {
       orientation,
       ...otherProps
     } = this.props
-    const leftOrRightEvent = (orientation === 'right') ? {...s['event--right']} : {...s['event--left']}
-    const leftOrRightButton = (orientation === 'left') ? {...s['actionButtons--right']} : {...s['actionButtons--left']}
+    const leftOrRightEventStyling = (orientation === 'right') ? {...s['event--right']} : {...s['event--left']}
+    const leftOrRightButtonStyling = (orientation === 'left') ? {...s['actionButtons--right']} : {...s['actionButtons--left']}
     return (
-      <div style={{...s.event, ...leftOrRightEvent}}>
+      <div style={{...s.event, ...leftOrRightEventStyling}}>
         <div style={this.mergeNotificationStyle(iconColor, bubbleStyle, orientation)}>
           <span style={{...s.materialIcons, ...iconStyle}}>
             {icon}
@@ -70,7 +70,7 @@ class TimelineEvent extends Component {
               <div style={{...s.subtitle, ...subtitleStyle}}>
                 {subtitle}
               </div>}
-            <div style={{...s.actionButtons, ...leftOrRightButton}}>
+            <div style={{...s.actionButtons, ...leftOrRightButtonStyling}}>
               {buttons}
             </div>
           </div>

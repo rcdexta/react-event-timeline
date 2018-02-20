@@ -12,13 +12,14 @@ class TimelineBlip extends Component {
   }
 
   render() {
-    const {title, iconStyle, icon, iconColor, style, ...otherProps} = this.props
+    const {title, iconStyle, icon, orientation, iconColor, style, ...otherProps} = this.props
+		const leftOrRightEvent = (orientation === 'right') ? {...s['event--right']} : {...s['event--left']}
     return (
       <div style={{...s.event, marginBottom: 50, ...style}}>
         <div style={this.mergeNotificationStyle(iconColor)}>
           <span style={this.iconStyle(iconStyle)}>{icon}</span>
         </div>
-        <div {...otherProps} style={s.blipStyle}>
+        <div {...otherProps} style={{...s.blipStyle, ...leftOrRightEvent}}>
           <div>{title}</div>
         </div>
         <div style={s.eventAfter} />
