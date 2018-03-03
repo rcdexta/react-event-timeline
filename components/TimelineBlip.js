@@ -13,7 +13,7 @@ class TimelineBlip extends Component {
 
   render() {
     const {title, iconStyle, icon, orientation, iconColor, style, ...otherProps} = this.props
-		const leftOrRightEvent = (orientation === 'right') ? {...s['event--right']} : {...s['event--left']}
+    const leftOrRightEvent = (orientation === 'right') ? {...s['event--right']} : {...s['event--left']}
     return (
       <div style={{...s.event, marginBottom: 50, ...style}}>
         <div style={this.mergeNotificationStyle(iconColor)}>
@@ -33,7 +33,8 @@ TimelineBlip.propTypes = {
   icon: PropTypes.node,
   iconColor: PropTypes.string,
   iconStyle: PropTypes.object,
-  style: PropTypes.object
+  style: PropTypes.object,
+  orientation: PropTypes.string
 }
 
 TimelineBlip.defaultProps = {
