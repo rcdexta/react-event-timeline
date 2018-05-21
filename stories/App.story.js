@@ -215,7 +215,7 @@ storiesOf('Timeline', module)
   .add(
     'Icon and Bubble Styling',
     withInfo('Modify the appearance of bubbles and containing icons')(() =>
-      <Timeline>
+      <Timeline lineColor='magenta'>
         <TimelineEvent
           title='John Doe sent a SMS'
           createdAt='2016-09-12 10:06 PM'
