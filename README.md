@@ -69,6 +69,7 @@ This is the wrapper component that creates the infinite vertical timeline
 | style          | object | Override inline styles of timeline container |
 | orientation    | string | Display the timeline on `right` or `left`. Default: `left` |
 | lineColor      | string | CSS color code to override the line color |
+| lineStyle      | string | Override the appearance of line with custom css styling |
 
 ### TimelineEvent
 
