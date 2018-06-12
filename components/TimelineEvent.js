@@ -6,7 +6,7 @@ class TimelineEvent extends Component {
   mergeNotificationStyle(iconColor, bubbleStyle, orientation) {
     const iconColorStyle = iconColor ? {...s.eventType, ...{color: iconColor, borderColor: iconColor}} : s.eventType
     const leftOrRight = (orientation === 'right') ? {...s['eventType--right']} : {...s['eventType--left']}
-    return {...iconColorStyle, ...bubbleStyle, ...leftOrRight}
+    return {...iconColorStyle, ...leftOrRight, ...bubbleStyle}
   }
 
   mergeContentStyle(contentStyle) {
