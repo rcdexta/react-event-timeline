@@ -3,6 +3,25 @@ import PropTypes from 'prop-types'
 import s from './styles'
 
 class TimelineEvent extends Component {
+
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      showContent: this.props.showContent || false
+    }
+
+    this.toggleContent = this.toggleContent.bind(this)
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.showContent !== prevProps.showContent) {
+      this.state({
+        showContent: this.props.showContent
+      })
+    }
+  }
+
   mergeNotificationStyle(iconColor, bubbleStyle, orientation) {
     const iconColorStyle = iconColor ? {...s.eventType, ...{color: iconColor, borderColor: iconColor}} : s.eventType
     const leftOrRight = (orientation === 'right') ? {...s['eventType--right']} : {...s['eventType--left']}
@@ -29,6 +48,18 @@ class TimelineEvent extends Component {
     return this.showAsCard() ? {...s.card, ...containerStyle} : containerStyle
   }
 
+  toggleStyle() {
+    const {container, cardHeaderStyle, enableToggle} = this.props
+    const messageStyle = container === 'card' ? {...s.cardTitle, ...cardHeaderStyle} : {}
+    return enableToggle ? {...s.toggleEnabled, ...messageStyle} : messageStyle
+  }
+
+  toggleContent() {
+    this.setState({
+      showContent: !this.state.showContent
+    })
+  }
+
   render() {
     const {
       createdAt,
@@ -40,11 +71,10 @@ class TimelineEvent extends Component {
       buttons,
       icon,
       iconColor,
-      container,
-      cardHeaderStyle,
       titleStyle,
       subtitleStyle,
       orientation,
+      enableToggle,
       ...otherProps
     } = this.props
     const leftOrRightEventStyling = (orientation === 'right') ? {...s['event--right']} : {...s['event--left']}
@@ -58,7 +88,7 @@ class TimelineEvent extends Component {
         </div>
         <div {...otherProps} style={this.containerStyle()}>
           <div style={s.eventContainerBefore} />
-          <div style={container === 'card' ? {...s.cardTitle, ...cardHeaderStyle} : {}}>
+          <div style={this.toggleStyle()} onClick={enableToggle && this.toggleContent}>
             {createdAt &&
               <div style={this.timeStyle()}>
                 {createdAt}
@@ -74,8 +104,11 @@ class TimelineEvent extends Component {
               {buttons}
             </div>
           </div>
-          {this.props.children &&
+          {this.props.children && enableToggle ? this.state.showContent &&
             <div style={this.mergeContentStyle(contentStyle)}>
+              {this.props.children}
+              <div style={s.messageAfter} />
+            </div> : <div style={this.mergeContentStyle(contentStyle)}>
               {this.props.children}
               <div style={s.messageAfter} />
             </div>}
@@ -102,7 +135,9 @@ TimelineEvent.propTypes = {
   cardHeaderStyle: PropTypes.object,
   style: PropTypes.object,
   titleStyle: PropTypes.object,
-  subtitleStyle: PropTypes.object
+  subtitleStyle: PropTypes.object,
+  enableToggle: PropTypes.bool,
+  showContent: PropTypes.bool
 }
 
 TimelineEvent.defaultProps = {
