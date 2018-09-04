@@ -6,19 +6,13 @@ class TimelineEvent extends Component {
 
   constructor(props) {
     super(props)
-
-    this.state = {
-      showContent: this.props.showContent || false
-    }
-
+    this.state = {showContent: this.props.showContent}
     this.toggleContent = this.toggleContent.bind(this)
   }
 
   componentDidUpdate(prevProps) {
     if (this.props.showContent !== prevProps.showContent) {
-      this.state({
-        showContent: this.props.showContent
-      })
+      this.state({showContent: this.props.showContent})
     }
   }
 
@@ -49,15 +43,22 @@ class TimelineEvent extends Component {
   }
 
   toggleStyle() {
-    const {container, cardHeaderStyle, enableToggle} = this.props
+    const {container, cardHeaderStyle, collapsible} = this.props
     const messageStyle = container === 'card' ? {...s.cardTitle, ...cardHeaderStyle} : {}
-    return enableToggle ? {...s.toggleEnabled, ...messageStyle} : messageStyle
+    return collapsible ? {...s.toggleEnabled, ...messageStyle} : messageStyle
   }
 
   toggleContent() {
-    this.setState({
-      showContent: !this.state.showContent
-    })
+    this.setState({showContent: !this.state.showContent})
+  }
+
+  renderChildren() {
+    const {collapsible, contentStyle} = this.props
+    return ((collapsible && this.state.showContent) || !collapsible) ?
+    <div style={this.mergeContentStyle(contentStyle)}>
+      {this.props.children}
+      <div style={s.messageAfter} />
+    </div> : <span style={{fontWeight: 500, fontSize: 16, cursor: 'pointer'}} onClick={this.toggleContent}>…</span>
   }
 
   render() {
@@ -65,7 +66,6 @@ class TimelineEvent extends Component {
       createdAt,
       title,
       subtitle,
-      contentStyle,
       iconStyle,
       bubbleStyle,
       buttons,
@@ -74,7 +74,7 @@ class TimelineEvent extends Component {
       titleStyle,
       subtitleStyle,
       orientation,
-      enableToggle,
+      collapsible,
       ...otherProps
     } = this.props
     const leftOrRightEventStyling = (orientation === 'right') ? {...s['event--right']} : {...s['event--left']}
@@ -88,7 +88,7 @@ class TimelineEvent extends Component {
         </div>
         <div {...otherProps} style={this.containerStyle()}>
           <div style={s.eventContainerBefore} />
-          <div style={this.toggleStyle()} onClick={enableToggle && this.toggleContent}>
+          <div style={this.toggleStyle()} onClick={collapsible && this.toggleContent}>
             {createdAt &&
               <div style={this.timeStyle()}>
                 {createdAt}
@@ -104,14 +104,7 @@ class TimelineEvent extends Component {
               {buttons}
             </div>
           </div>
-          {this.props.children && enableToggle ? this.state.showContent &&
-            <div style={this.mergeContentStyle(contentStyle)}>
-              {this.props.children}
-              <div style={s.messageAfter} />
-            </div> : <div style={this.mergeContentStyle(contentStyle)}>
-              {this.props.children}
-              <div style={s.messageAfter} />
-            </div>}
+          {this.props.children && this.renderChildren()}
         </div>
         <div style={s.eventAfter} />
       </div>
@@ -136,7 +129,7 @@ TimelineEvent.propTypes = {
   style: PropTypes.object,
   titleStyle: PropTypes.object,
   subtitleStyle: PropTypes.object,
-  enableToggle: PropTypes.bool,
+  collapsible: PropTypes.bool,
   showContent: PropTypes.bool
 }
 
@@ -149,7 +142,8 @@ TimelineEvent.defaultProps = {
   style: {},
   titleStyle: {},
   subtitleStyle: {},
-  orientation: 'left'
+  orientation: 'left',
+  showContent: false
 }
 
 export default TimelineEvent

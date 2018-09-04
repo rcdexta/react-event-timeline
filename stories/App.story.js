@@ -313,7 +313,7 @@ storiesOf('Timeline', module)
           createdAt='2016-09-12 10:06 PM'
           icon={<i className='material-icons md-18'>textsms</i>}
           iconColor='#6fba1c'
-          enableToggle
+          collapsible
           showContent
         >
           I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
@@ -323,7 +323,7 @@ storiesOf('Timeline', module)
           createdAt='2016-09-11 09:06 AM'
           icon={<i className='material-icons md-18'>email</i>}
           iconColor='#03a9f4'
-          enableToggle
+          collapsible
         >
           <p>Subject: Any updates?</p>
           <p>

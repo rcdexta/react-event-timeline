@@ -17,7 +17,7 @@ See the storybook demo here: https://rcdexta.github.io/react-event-timeline
 
 ## Getting started
 
-To install the dependency 
+To install the dependency
 ```
 npm install --save react-event-timeline
 ```
@@ -90,6 +90,8 @@ Each event in the timeline will be represented by the `TimelineEvent` component.
 | titleStyle   | object   | Override style for the title content |
 | subtitleStyle | object | Override style for the subtitle content |
 | cardHeaderStyle | object | Override style for the card header if container is `card` |
+| collapsible  | boolean  | Make the timeline event collapse body content |
+| showContent  | boolean  | if `collapsible` is true, should content be shown by default. `false` is default value |
 
 ### TimelineBlip
 
@@ -118,7 +120,7 @@ This project recommends using [react-storybook](https://github.com/kadirahq/reac
 
 The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes live reloaded on the browser
 
-Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository. 
+Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository.
 
 ## License
 
