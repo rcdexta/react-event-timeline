@@ -11,7 +11,7 @@
     "lint": "eslint components/** tests/**",
     "lintfix": "eslint --fix components/** tests/**",
     "prepublish": "npm run lint && npm run build",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release",
     "storybook": "start-storybook -p 9002",
     "test": "mocha --require tests/config/setup 'tests/**/*.test.js'",
     "test:watch": "mocha --require tests/config/setup 'tests/**/*.test.js' --watch",
@@ -19,7 +19,8 @@
     "build": "babel components --out-dir dist",
     "docs": "build-storybook -o docs",
     "commit": "git cz",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
@@ -72,8 +73,9 @@
     "react-dom": "^16.0.0",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.0.2",
-    "semantic-release": "^6.3.6",
-    "sinon": "^1.17.6"
+    "semantic-release": "^15.12.1",
+    "sinon": "^1.17.6",
+    "travis-deploy-once": "^5.0.9"
   },
   "dependencies": {
     "prop-types": "^15.6.0"
@@ -85,5 +87,6 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "version": "0.0.0-development"
 }
