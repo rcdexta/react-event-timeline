@@ -2,9 +2,10 @@
   "name": "react-event-timeline",
   "description": "A responsive event timeline in React.js",
   "main": "dist/index.js",
+  "typings": "typings",
   "files": [
-    "src",
     "dist",
+    "typings",
     "README"
   ],
   "scripts": {
