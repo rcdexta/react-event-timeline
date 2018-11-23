@@ -14,6 +14,8 @@ CodeSandbox version available here (in typescript):
 
 [![Edit Timeline Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/13k1jjqj64)
 
+> Note: CodeSandbox version has styling and icons loaded in index.html for better presentation!
+
 ## Features
 
 * It's lightweight
