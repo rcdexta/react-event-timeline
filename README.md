@@ -10,6 +10,10 @@ A react component to generate responsive event timeline.
 
 See the storybook demo here: https://rcdexta.github.io/react-event-timeline
 
+CodeSandbox version available here (in typescript):
+
+[![Edit Timeline Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/13k1jjqj64)
+
 ## Features
 
 * It's lightweight
