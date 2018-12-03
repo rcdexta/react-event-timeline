@@ -8,5 +8,11 @@ module.exports = {
   'moduleNameMapper': {
     '\\.(jpg|png|gif|svg)$': '<rootDir>/__mocks__/fileMock.js'
   },
+  'coveragePathIgnorePatterns': [
+    '/stories/',
+    '/.storybook/',
+    '<rootDir>/node_modules/',
+    'story(.*).tsx'
+  ],
   collectCoverage: true
 }
