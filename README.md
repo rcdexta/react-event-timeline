@@ -4,6 +4,7 @@ A react component to generate responsive event timeline.
 
 [![npm version](https://badge.fury.io/js/react-event-timeline.svg)](https://badge.fury.io/js/react-event-timeline)
 [![Build Status](https://travis-ci.org/rcdexta/react-event-timeline.svg?branch=master)](https://travis-ci.org/rcdexta/react-event-timeline)
+[![codecov](https://codecov.io/gh/rcdexta/react-event-timeline/branch/master/graph/badge.svg)](https://codecov.io/gh/rcdexta/react-event-timeline)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/rcdexta/react-event-timeline/blob/master/LICENSE.md)
 
 ![alt tag](https://github.com/rcdexta/react-event-timeline/raw/master/timeline.png)
