@@ -14,7 +14,7 @@
     "prepublish": "npm run lint && npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "storybook": "start-storybook -p 9002",
-    "test": "mocha --require tests/config/setup 'tests/**/*.test.js'",
+    "test": "mocha --require tests/config/setup 'tests/**/*.test.js' && tsc -p typings",
     "test:watch": "mocha --require tests/config/setup 'tests/**/*.test.js' --watch",
     "test:cover": "istanbul cover -x *.test.js _mocha -- -R spec --require tests/config/setup 'tests/**/*.test.js'",
     "build": "babel components --out-dir dist",
@@ -44,6 +44,7 @@
     "@storybook/cli": "^3.2.12",
     "@storybook/react": "^3.2.12",
     "@storybook/storybook-deployer": "^2.0.0",
+    "@types/react": "^16.7.11",
     "autoprefixer": "^6.4.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -76,7 +77,8 @@
     "sass-loader": "^4.0.2",
     "semantic-release": "^6.3.6",
     "sinon": "^1.17.6",
-    "travis-deploy-once": "^5.0.9"
+    "travis-deploy-once": "^5.0.9",
+    "typescript": "^3.2.1"
   },
   "dependencies": {
     "prop-types": "^15.6.0"
