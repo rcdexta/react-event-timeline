@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
-import {storiesOf} from '@storybook/react'
-import {withInfo} from '@storybook/addon-info'
-import {Timeline, TimelineEvent, TimelineBlip} from '../components/index'
+import React, { Component } from 'react'
+import { storiesOf } from '@storybook/react'
+import { withInfo } from '@storybook/addon-info'
+import { Timeline, TimelineEvent, TimelineBlip } from '../components/index'
 import Image from './sample.jpg'
 
 const globalStyles = {
@@ -10,16 +10,13 @@ const globalStyles = {
   fontFamily: 'Roboto'
 }
 
-const container = story =>
-  <div style={globalStyles}>
-    {story()}
-  </div>
+const container = story => <div style={globalStyles}>{story()}</div>
 
 storiesOf('Timeline', module)
   .addDecorator(container)
   .add(
     'Default View',
-    withInfo('Timeline view with sensible defaults')(() =>
+    withInfo('Timeline view with sensible defaults')(() => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -27,7 +24,8 @@ storiesOf('Timeline', module)
           icon={<i className='material-icons md-18'>textsms</i>}
           iconColor='#6fba1c'
         >
-          I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
+          I received the payment for $543. Should be shipping the item within a
+          couple of hours. Thanks for the order!
         </TimelineEvent>
         <TimelineEvent
           title='You sent an email to John Doe'
@@ -37,56 +35,59 @@ storiesOf('Timeline', module)
         >
           <p>Subject: Any updates?</p>
           <p>
-            Like we talked, you said that you would share the shipment details? This is an urgent order and so I am
-            losing patience. Can you expedite the process and pls do share the details asap. Consider this a gentle
-            reminder if you are on track already!
+            Like we talked, you said that you would share the shipment details?
+            This is an urgent order and so I am losing patience. Can you
+            expedite the process and pls do share the details asap. Consider
+            this a gentle reminder if you are on track already!
           </p>
           <p>- Maya</p>
         </TimelineEvent>
       </Timeline>
-    )
+    ))
   )
-.add(
-	'Orientation',
-	withInfo('Timeline view with the other orientation')(() =>
-		<Timeline orientation='right'>
-			<TimelineEvent
-				title='John Doe sent a SMS'
-				createdAt='2016-09-12 10:06 PM'
-				icon={<i className='material-icons md-18'>textsms</i>}
-				iconColor='#6fba1c'
-			>
-				I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
-			</TimelineEvent>
-			<TimelineEvent
-				title='You sent an email to John Doe'
-				createdAt='2016-09-11 09:06 AM'
-				icon={<i className='material-icons md-18'>email</i>}
-				iconColor='#03a9f4'
-			>
-				<p>Subject: Any updates?</p>
-				<p>
-					Like we talked, you said that you would share the shipment details? This is an urgent order and so I am
-					losing patience. Can you expedite the process and pls do share the details asap. Consider this a gentle
-					reminder if you are on track already!
-				</p>
-				<p>- Maya</p>
-			</TimelineEvent>
-		</Timeline>
-	)
-)
+  .add(
+    'Orientation',
+    withInfo('Timeline view with the other orientation')(() => (
+      <Timeline orientation='right'>
+        <TimelineEvent
+          title='John Doe sent a SMS'
+          createdAt='2016-09-12 10:06 PM'
+          icon={<i className='material-icons md-18'>textsms</i>}
+          iconColor='#6fba1c'
+        >
+          I received the payment for $543. Should be shipping the item within a
+          couple of hours. Thanks for the order!
+        </TimelineEvent>
+        <TimelineEvent
+          title='You sent an email to John Doe'
+          createdAt='2016-09-11 09:06 AM'
+          icon={<i className='material-icons md-18'>email</i>}
+          iconColor='#03a9f4'
+        >
+          <p>Subject: Any updates?</p>
+          <p>
+            Like we talked, you said that you would share the shipment details?
+            This is an urgent order and so I am losing patience. Can you
+            expedite the process and pls do share the details asap. Consider
+            this a gentle reminder if you are on track already!
+          </p>
+          <p>- Maya</p>
+        </TimelineEvent>
+      </Timeline>
+    ))
+  )
   .add(
     'Condensed Timeline',
-    withInfo('Use TimelineBlip to display micro events')(() =>
+    withInfo('Use TimelineBlip to display micro events')(() => (
       <Timeline>
         <TimelineBlip
           title='Remove PropTypes warning'
-					iconStyle={{marginLeft: 1, marginTop: 0}}
+          iconStyle={{ marginLeft: 1, marginTop: 0 }}
           icon={<i className='material-icons md-18'>assignment_late</i>}
           iconColor='#03a9f4'
-					style={{
-						color: '#9c27b0'
-					}}
+          style={{
+            color: '#9c27b0'
+          }}
         />
         <TimelineBlip
           title='John starred this thread'
@@ -94,31 +95,34 @@ storiesOf('Timeline', module)
           iconColor='#6fba1c'
         />
       </Timeline>
-    )
+    ))
   )
   .add(
     'Action buttons',
-    withInfo('Checkout the reply button to the top right corner of the event')(() =>
-      <Timeline>
-        <TimelineEvent
-          title='You have sent a SMS'
-          createdAt='2016-10-02 08:02 AM'
-          icon={<i className='material-icons md-18'>textsms</i>}
-          buttons={
-            <i className='material-icons md-18' style={{color: '#01579B'}}>
-              reply
-            </i>
-          }
-          iconColor='#6fba1c'
-        >
-          You should be receiving the shipment by tomorrow evening. Please reply back if you have more questions
-        </TimelineEvent>
-      </Timeline>
+    withInfo('Checkout the reply button to the top right corner of the event')(
+      () => (
+        <Timeline>
+          <TimelineEvent
+            title='You have sent a SMS'
+            createdAt='2016-10-02 08:02 AM'
+            icon={<i className='material-icons md-18'>textsms</i>}
+            buttons={
+              <i className='material-icons md-18' style={{ color: '#01579B' }}>
+                reply
+              </i>
+            }
+            iconColor='#6fba1c'
+          >
+            You should be receiving the shipment by tomorrow evening. Please
+            reply back if you have more questions
+          </TimelineEvent>
+        </Timeline>
+      )
     )
   )
   .add(
     'Content with images',
-    withInfo('The event can contain any content include media')(() =>
+    withInfo('The event can contain any content include media')(() => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -130,7 +134,7 @@ storiesOf('Timeline', module)
           <img src={Image} />
         </TimelineEvent>
       </Timeline>
-    )
+    ))
   )
   .add(
     'Card Appearance',
@@ -143,7 +147,10 @@ storiesOf('Timeline', module)
             icon={<i className='material-icons md-18'>event</i>}
             iconColor='#757575'
             buttons={
-              <i className='material-icons md-24' style={{color: '#FFF', marginTop: -5}}>
+              <i
+                className='material-icons md-24'
+                style={{ color: '#FFF', marginTop: -5 }}
+              >
                 play_circle_filled
               </i>
             }
@@ -155,7 +162,7 @@ storiesOf('Timeline', module)
               fontWeight: 400,
               color: '#828282c'
             }}
-            cardHeaderStyle={{backgroundColor: '#8bc34a', color: '#503331'}}
+            cardHeaderStyle={{ backgroundColor: '#8bc34a', color: '#503331' }}
           >
             Card as timeline event with custom container and header styling
           </TimelineEvent>
@@ -165,7 +172,10 @@ storiesOf('Timeline', module)
             icon={<i className='material-icons md-18'>event</i>}
             iconColor='#757575'
             buttons={
-              <i className='material-icons md-24' style={{color: '#FFF', marginTop: -5}}>
+              <i
+                className='material-icons md-24'
+                style={{ color: '#FFF', marginTop: -5 }}
+              >
                 play_circle_filled
               </i>
             }
@@ -197,31 +207,36 @@ storiesOf('Timeline', module)
   )
   .add(
     'Event Styling',
-    withInfo('TimelineEvent is completely customizable')(() =>
+    withInfo('TimelineEvent is completely customizable')(() => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
           createdAt='2016-09-12 10:06 PM'
           icon={<i className='material-icons md-18'>textsms</i>}
           iconColor='#6fba1c'
-          style={{backgroundColor: '#fff', padding: 10, boxShadow: '0 0 3px 1px #BD3B36', border: '1px solid #eee'}}
-          contentStyle={{backgroundColor: '#00BCD4', color: '#fff'}}
+          style={{
+            backgroundColor: '#fff',
+            padding: 10,
+            boxShadow: '0 0 3px 1px #BD3B36',
+            border: '1px solid #eee'
+          }}
+          contentStyle={{ backgroundColor: '#00BCD4', color: '#fff' }}
         >
           This message should appear on a different background
         </TimelineEvent>
       </Timeline>
-    )
+    ))
   )
   .add(
     'Icon and Bubble Styling',
-    withInfo('Modify the appearance of bubbles and containing icons')(() =>
-      <Timeline lineStyle={{background: '#999', width: 3}}>
+    withInfo('Modify the appearance of bubbles and containing icons')(() => (
+      <Timeline lineStyle={{ background: '#999', width: 3 }}>
         <TimelineEvent
           title='John Doe sent a SMS'
           createdAt='2016-09-12 10:06 PM'
           icon={<i className='material-icons md-18'>textsms</i>}
           iconColor='#6fba1c'
-          bubbleStyle={{backgroundColor: '#00ff81'}}
+          bubbleStyle={{ backgroundColor: '#00ff81' }}
         >
           Notice the style variations to the bubble and icons
         </TimelineEvent>
@@ -229,16 +244,16 @@ storiesOf('Timeline', module)
           title={'Phone event'}
           createdAt='2016-10-12 12:12 AM'
           icon={<i className='material-icons md-18'>phone</i>}
-          iconStyle={{marginLeft: 1, marginTop: 0}}
+          iconStyle={{ marginLeft: 1, marginTop: 0 }}
           iconColor='#5C6BC0'
         >
           John called!
         </TimelineEvent>
       </Timeline>
-    )
+    ))
   )
   .add(
-    'Dynamic Prop Updates',
+    'Dynamic Prop Updates DontTest ',
     withInfo('Props passed to the events are updated in realtime')(() => {
       class DynamicTimeline extends Component {
         constructor(props) {
@@ -250,7 +265,7 @@ storiesOf('Timeline', module)
         }
 
         onClick() {
-          this.setState({createdAt: new Date()})
+          this.setState({ createdAt: new Date() })
         }
 
         render() {
@@ -266,7 +281,7 @@ storiesOf('Timeline', module)
                   This message should appear on a different background
                 </TimelineEvent>
               </Timeline>
-              <button onClick={this.onClick} style={{margin: 10}}>
+              <button onClick={this.onClick} style={{ margin: 10 }}>
                 Refresh Date
               </button>
             </div>
@@ -278,35 +293,37 @@ storiesOf('Timeline', module)
   )
   .add(
     'Title and Subtitle styling',
-    withInfo('Add your own title and subtitle to events')(() =>
+    withInfo('Add your own title and subtitle to events')(() => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
           subtitle='☞ Needs RSVP'
-          subtitleStyle={{color: '#2962FF'}}
+          subtitleStyle={{ color: '#2962FF' }}
           icon={<i className='material-icons md-18'>textsms</i>}
           iconColor='#6fba1c'
         >
-          I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
+          I received the payment for $543. Should be shipping the item within a
+          couple of hours. Thanks for the order!
         </TimelineEvent>
         <TimelineEvent
           title='You sent an email to John Doe'
-          titleStyle={{fontWeight: 'bold'}}
+          titleStyle={{ fontWeight: 'bold' }}
           subtitle='✔ Mail delivered'
-          subtitleStyle={{color: 'green'}}
+          subtitleStyle={{ color: 'green' }}
           icon={<i className='material-icons md-18'>email</i>}
           iconColor='#03a9f4'
         >
-          Like we talked, you said that you would share the shipment details? This is an urgent order and so I am losing
-          patience. Can you expedite the process and pls do share the details asap. Consider this a gentle reminder if
-          you are on track already!
+          Like we talked, you said that you would share the shipment details?
+          This is an urgent order and so I am losing patience. Can you expedite
+          the process and pls do share the details asap. Consider this a gentle
+          reminder if you are on track already!
         </TimelineEvent>
       </Timeline>
-    )
+    ))
   )
   .add(
     'TimelineEvent with collapsible content',
-    withInfo('Make the content collapsible')(() =>
+    withInfo('Make the content collapsible')(() => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -316,7 +333,8 @@ storiesOf('Timeline', module)
           collapsible
           showContent
         >
-          I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
+          I received the payment for $543. Should be shipping the item within a
+          couple of hours. Thanks for the order!
         </TimelineEvent>
         <TimelineEvent
           title='You sent an email to John Doe'
@@ -327,12 +345,13 @@ storiesOf('Timeline', module)
         >
           <p>Subject: Any updates?</p>
           <p>
-            Like we talked, you said that you would share the shipment details? This is an urgent order and so I am
-            losing patience. Can you expedite the process and pls do share the details asap. Consider this a gentle
-            reminder if you are on track already!
+            Like we talked, you said that you would share the shipment details?
+            This is an urgent order and so I am losing patience. Can you
+            expedite the process and pls do share the details asap. Consider
+            this a gentle reminder if you are on track already!
           </p>
           <p>- Maya</p>
         </TimelineEvent>
       </Timeline>
-    )
+    ))
   )

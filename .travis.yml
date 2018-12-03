@@ -5,10 +5,11 @@ cache:
 notifications:
   email: true
 node_js:
-  - '8'  
+  - '8'
 before_script:
   - npm prune
 after_success:
+  - npm run coverage
   - npm run semantic-release
 branches:
   except:
