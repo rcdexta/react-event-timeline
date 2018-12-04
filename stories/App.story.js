@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { storiesOf } from '@storybook/react'
-import { withInfo } from '@storybook/addon-info'
 import { Timeline, TimelineEvent, TimelineBlip } from '../components/index'
 import Image from './sample.jpg'
 
@@ -16,7 +15,7 @@ storiesOf('Timeline', module)
   .addDecorator(container)
   .add(
     'Default View',
-    withInfo('Timeline view with sensible defaults')(() => (
+    () => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -43,11 +42,12 @@ storiesOf('Timeline', module)
           <p>- Maya</p>
         </TimelineEvent>
       </Timeline>
-    ))
+    ),
+    { info: 'Timeline view with sensible defaults' }
   )
   .add(
     'Orientation',
-    withInfo('Timeline view with the other orientation')(() => (
+    () => (
       <Timeline orientation='right'>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -74,11 +74,12 @@ storiesOf('Timeline', module)
           <p>- Maya</p>
         </TimelineEvent>
       </Timeline>
-    ))
+    ),
+    { info: 'Timeline view with the other orientation' }
   )
   .add(
     'Condensed Timeline',
-    withInfo('Use TimelineBlip to display micro events')(() => (
+    () => (
       <Timeline>
         <TimelineBlip
           title='Remove PropTypes warning'
@@ -95,34 +96,34 @@ storiesOf('Timeline', module)
           iconColor='#6fba1c'
         />
       </Timeline>
-    ))
+    ),
+    { info: 'Use TimelineBlip to display micro events' }
   )
   .add(
     'Action buttons',
-    withInfo('Checkout the reply button to the top right corner of the event')(
-      () => (
-        <Timeline>
-          <TimelineEvent
-            title='You have sent a SMS'
-            createdAt='2016-10-02 08:02 AM'
-            icon={<i className='material-icons md-18'>textsms</i>}
-            buttons={
-              <i className='material-icons md-18' style={{ color: '#01579B' }}>
-                reply
-              </i>
-            }
-            iconColor='#6fba1c'
-          >
-            You should be receiving the shipment by tomorrow evening. Please
-            reply back if you have more questions
-          </TimelineEvent>
-        </Timeline>
-      )
-    )
+    () => (
+      <Timeline>
+        <TimelineEvent
+          title='You have sent a SMS'
+          createdAt='2016-10-02 08:02 AM'
+          icon={<i className='material-icons md-18'>textsms</i>}
+          buttons={
+            <i className='material-icons md-18' style={{ color: '#01579B' }}>
+              reply
+            </i>
+          }
+          iconColor='#6fba1c'
+        >
+          You should be receiving the shipment by tomorrow evening. Please reply
+          back if you have more questions
+        </TimelineEvent>
+      </Timeline>
+    ),
+    { info: 'Checkout the reply button to the top right corner of the event' }
   )
   .add(
     'Content with images',
-    withInfo('The event can contain any content include media')(() => (
+    () => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -134,80 +135,79 @@ storiesOf('Timeline', module)
           <img src={Image} />
         </TimelineEvent>
       </Timeline>
-    ))
+    ),
+    { info: 'The event can contain any content include media' }
   )
   .add(
     'Card Appearance',
-    withInfo('Timeline event container can be modelled as a card')(() => {
-      return (
-        <Timeline>
-          <TimelineEvent
-            title='Introduction to Redux in React applications'
-            createdAt='2016-09-12 10:06 PM'
-            icon={<i className='material-icons md-18'>event</i>}
-            iconColor='#757575'
-            buttons={
-              <i
-                className='material-icons md-24'
-                style={{ color: '#FFF', marginTop: -5 }}
-              >
-                play_circle_filled
-              </i>
-            }
-            container='card'
-            style={{
-              boxShadow: '0 0 6px 1px #BD3B36',
-              border: '1px solid #777',
-              borderRadius: 3,
-              fontWeight: 400,
-              color: '#828282c'
-            }}
-            cardHeaderStyle={{ backgroundColor: '#8bc34a', color: '#503331' }}
-          >
-            Card as timeline event with custom container and header styling
-          </TimelineEvent>
-          <TimelineEvent
-            title='Introduction to Redux in React applications'
-            createdAt='2016-09-12 10:06 PM'
-            icon={<i className='material-icons md-18'>event</i>}
-            iconColor='#757575'
-            buttons={
-              <i
-                className='material-icons md-24'
-                style={{ color: '#FFF', marginTop: -5 }}
-              >
-                play_circle_filled
-              </i>
-            }
-            container='card'
-          >
-            A simple card with sensible defaults for styling
-          </TimelineEvent>
-        </Timeline>
-      )
-    })
+    () => (
+      <Timeline>
+        <TimelineEvent
+          title='Introduction to Redux in React applications'
+          createdAt='2016-09-12 10:06 PM'
+          icon={<i className='material-icons md-18'>event</i>}
+          iconColor='#757575'
+          buttons={
+            <i
+              className='material-icons md-24'
+              style={{ color: '#FFF', marginTop: -5 }}
+            >
+              play_circle_filled
+            </i>
+          }
+          container='card'
+          style={{
+            boxShadow: '0 0 6px 1px #BD3B36',
+            border: '1px solid #777',
+            borderRadius: 3,
+            fontWeight: 400,
+            color: '#828282c'
+          }}
+          cardHeaderStyle={{ backgroundColor: '#8bc34a', color: '#503331' }}
+        >
+          Card as timeline event with custom container and header styling
+        </TimelineEvent>
+        <TimelineEvent
+          title='Introduction to Redux in React applications'
+          createdAt='2016-09-12 10:06 PM'
+          icon={<i className='material-icons md-18'>event</i>}
+          iconColor='#757575'
+          buttons={
+            <i
+              className='material-icons md-24'
+              style={{ color: '#FFF', marginTop: -5 }}
+            >
+              play_circle_filled
+            </i>
+          }
+          container='card'
+        >
+          A simple card with sensible defaults for styling
+        </TimelineEvent>
+      </Timeline>
+    ),
+    { info: 'Timeline event container can be modelled as a card' }
   )
   .add(
     'Event handlers',
-    withInfo('Timeline events can listen to user actions')(() => {
-      return (
-        <Timeline>
-          <TimelineEvent
-            title='John Doe sent you a click bomb'
-            createdAt='2016-09-12 10:06 PM'
-            icon={<i className='material-icons md-18'>textsms</i>}
-            iconColor='#6fba1c'
-            onClick={() => alert('You clicked here!')}
-          >
-            Clicking this should raise an alert!
-          </TimelineEvent>
-        </Timeline>
-      )
-    })
+    () => (
+      <Timeline>
+        <TimelineEvent
+          title='John Doe sent you a click bomb'
+          createdAt='2016-09-12 10:06 PM'
+          icon={<i className='material-icons md-18'>textsms</i>}
+          iconColor='#6fba1c'
+          onClick={() => alert('You clicked here!')}
+        >
+          Clicking this should raise an alert!
+        </TimelineEvent>
+      </Timeline>
+    ),
+    { info: 'Timeline events can listen to user actions' }
   )
   .add(
     'Event Styling',
-    withInfo('TimelineEvent is completely customizable')(() => (
+    () => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -225,11 +225,12 @@ storiesOf('Timeline', module)
           This message should appear on a different background
         </TimelineEvent>
       </Timeline>
-    ))
+    ),
+    { info: 'TimelineEvent is completely customizable' }
   )
   .add(
     'Icon and Bubble Styling',
-    withInfo('Modify the appearance of bubbles and containing icons')(() => (
+    () => (
       <Timeline lineStyle={{ background: '#999', width: 3 }}>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -250,11 +251,12 @@ storiesOf('Timeline', module)
           John called!
         </TimelineEvent>
       </Timeline>
-    ))
+    ),
+    { info: 'Modify the appearance of bubbles and containing icons' }
   )
   .add(
     'Dynamic Prop Updates DontTest ',
-    withInfo('Props passed to the events are updated in realtime')(() => {
+    () => {
       class DynamicTimeline extends Component {
         constructor(props) {
           super(props)
@@ -289,11 +291,12 @@ storiesOf('Timeline', module)
         }
       }
       return <DynamicTimeline />
-    })
+    },
+    { info: 'Props passed to the events are updated in realtime' }
   )
   .add(
     'Title and Subtitle styling',
-    withInfo('Add your own title and subtitle to events')(() => (
+    () => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -319,11 +322,12 @@ storiesOf('Timeline', module)
           reminder if you are on track already!
         </TimelineEvent>
       </Timeline>
-    ))
+    ),
+    { info: 'Add your own title and subtitle to events' }
   )
   .add(
     'TimelineEvent with collapsible content',
-    withInfo('Make the content collapsible')(() => (
+    () => (
       <Timeline>
         <TimelineEvent
           title='John Doe sent a SMS'
@@ -353,5 +357,6 @@ storiesOf('Timeline', module)
           <p>- Maya</p>
         </TimelineEvent>
       </Timeline>
-    ))
+    ),
+    { info: 'Make the content collapsible' }
   )

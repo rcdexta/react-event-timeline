@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Timeline Action buttons 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -194,68 +194,195 @@ exports[`Storyshots Timeline Action buttons 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Checkout the reply button to the top right corner of the event
-          </div>
+          Checkout the reply button to the top right corner of the event
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -263,7 +390,7 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -274,7 +401,7 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -285,7 +412,7 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -293,7 +420,7 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -454,11 +581,29 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      You should be receiving the shipment by tomorrow evening. Please reply back if you have more questions
                     </span>
                   </div>
                   <div
@@ -472,25 +617,7 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      You should be receiving the shipment by tomorrow evening. Please reply back if you have more questions
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -503,7 +630,7 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -511,7 +638,7 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -521,30 +648,50 @@ exports[`Storyshots Timeline Action buttons 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -552,18 +699,18 @@ exports[`Storyshots Timeline Action buttons 1`] = `
 `;
 
 exports[`Storyshots Timeline Card Appearance 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -910,68 +1057,195 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Timeline event container can be modelled as a card
-          </div>
+          Timeline event container can be modelled as a card
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -979,7 +1253,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -990,7 +1264,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -1001,7 +1275,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -1009,7 +1283,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -1400,11 +1674,29 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      Card as timeline event with custom container and header styling
                     </span>
                   </div>
                   <div
@@ -1418,25 +1710,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      Card as timeline event with custom container and header styling
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -1450,7 +1724,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -1458,7 +1732,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -1649,11 +1923,29 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      A simple card with sensible defaults for styling
                     </span>
                   </div>
                   <div
@@ -1667,25 +1959,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      A simple card with sensible defaults for styling
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -1698,7 +1972,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -1706,7 +1980,7 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -1716,30 +1990,50 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -1747,18 +2041,18 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
 `;
 
 exports[`Storyshots Timeline Condensed Timeline 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -1943,93 +2237,191 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Use TimelineBlip to display micro events
-          </div>
+          Use TimelineBlip to display micro events
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
-              <div>
-                <div
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
                   style={
                     Object {
-                      "paddingLeft": 18,
-                      "paddingRight": 3,
+                      "color": "#444",
                     }
                   }
                 >
-                  <span
-                    style={
-                      Object {
-                        "color": "#777",
-                      }
-                    }
-                  >
-                    &lt;
-                    Timeline
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
                   </span>
-                  <span />
-                  <span
-                    style={
-                      Object {
-                        "color": "#777",
-                      }
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
                     }
-                  >
-                    &gt;
-                  </span>
-                </div>
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
+              <div>
                 <div
                   style={
                     Object {
@@ -2041,7 +2433,36 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;
+                    Timeline
+                  </span>
+                  <span />
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &gt;
+                  </span>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 48,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
                       }
                     }
                   >
@@ -2268,7 +2689,7 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -2278,7 +2699,7 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 33,
+                      "paddingLeft": 48,
                       "paddingRight": 3,
                     }
                   }
@@ -2286,7 +2707,7 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -2379,7 +2800,7 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -2389,7 +2810,7 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -2397,7 +2818,7 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -2407,30 +2828,50 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -2438,18 +2879,18 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
 `;
 
 exports[`Storyshots Timeline Content with images 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -2625,68 +3066,195 @@ exports[`Storyshots Timeline Content with images 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            The event can contain any content include media
-          </div>
+          The event can contain any content include media
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -2694,7 +3262,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -2705,7 +3273,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -2716,7 +3284,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -2724,7 +3292,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -2856,7 +3424,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -2867,7 +3435,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -2875,7 +3443,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -2886,11 +3454,29 @@ exports[`Storyshots Timeline Content with images 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
                         &gt;
+                      </span>
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "paddingLeft": 78,
+                          "paddingRight": 3,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        Please check if this image is good for printing
                       </span>
                     </div>
                     <div
@@ -2904,25 +3490,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
-                          }
-                        }
-                      >
-                        Please check if this image is good for printing
-                      </span>
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "paddingLeft": 48,
-                          "paddingRight": 3,
-                        }
-                      }
-                    >
-                      <span
-                        style={
-                          Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -2935,7 +3503,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 48,
+                        "paddingLeft": 63,
                         "paddingRight": 3,
                       }
                     }
@@ -2943,7 +3511,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -2983,7 +3551,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -2993,7 +3561,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -3001,7 +3569,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -3014,7 +3582,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -3022,7 +3590,7 @@ exports[`Storyshots Timeline Content with images 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -3032,30 +3600,50 @@ exports[`Storyshots Timeline Content with images 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -3063,18 +3651,18 @@ exports[`Storyshots Timeline Content with images 1`] = `
 `;
 
 exports[`Storyshots Timeline Default View 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -3384,68 +3972,195 @@ exports[`Storyshots Timeline Default View 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Timeline view with sensible defaults
-          </div>
+          Timeline view with sensible defaults
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -3453,7 +4168,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -3464,7 +4179,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -3475,7 +4190,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -3483,7 +4198,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -3615,11 +4330,29 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
                     </span>
                   </div>
                   <div
@@ -3633,25 +4366,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -3665,7 +4380,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -3673,7 +4388,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -3805,7 +4520,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -3816,7 +4531,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -3824,7 +4539,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3835,7 +4550,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3845,7 +4560,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 63,
+                          "paddingLeft": 78,
                           "paddingRight": 3,
                         }
                       }
@@ -3853,7 +4568,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3863,7 +4578,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -3871,7 +4586,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3885,7 +4600,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -3893,7 +4608,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3904,7 +4619,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3914,7 +4629,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 63,
+                          "paddingLeft": 78,
                           "paddingRight": 3,
                         }
                       }
@@ -3922,7 +4637,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3932,7 +4647,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -3940,7 +4655,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3954,7 +4669,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -3962,7 +4677,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -3973,11 +4688,29 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
                         &gt;
+                      </span>
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "paddingLeft": 78,
+                          "paddingRight": 3,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        - Maya
                       </span>
                     </div>
                     <div
@@ -3991,25 +4724,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
-                          }
-                        }
-                      >
-                        - Maya
-                      </span>
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "paddingLeft": 48,
-                          "paddingRight": 3,
-                        }
-                      }
-                    >
-                      <span
-                        style={
-                          Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -4022,7 +4737,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -4030,7 +4745,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -4043,7 +4758,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -4051,7 +4766,7 @@ exports[`Storyshots Timeline Default View 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -4061,30 +4776,50 @@ exports[`Storyshots Timeline Default View 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -4092,18 +4827,18 @@ exports[`Storyshots Timeline Default View 1`] = `
 `;
 
 exports[`Storyshots Timeline Event Styling 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -4284,68 +5019,195 @@ exports[`Storyshots Timeline Event Styling 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            TimelineEvent is completely customizable
-          </div>
+          TimelineEvent is completely customizable
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -4353,7 +5215,7 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -4364,7 +5226,7 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -4375,7 +5237,7 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -4383,7 +5245,7 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -4715,11 +5577,29 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      This message should appear on a different background
                     </span>
                   </div>
                   <div
@@ -4733,25 +5613,7 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      This message should appear on a different background
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -4764,7 +5626,7 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -4772,7 +5634,7 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -4782,30 +5644,50 @@ exports[`Storyshots Timeline Event Styling 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -4813,18 +5695,18 @@ exports[`Storyshots Timeline Event Styling 1`] = `
 `;
 
 exports[`Storyshots Timeline Event handlers 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -4996,68 +5878,195 @@ exports[`Storyshots Timeline Event handlers 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Timeline events can listen to user actions
-          </div>
+          Timeline events can listen to user actions
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -5065,7 +6074,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -5076,7 +6085,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -5087,7 +6096,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -5095,7 +6104,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -5256,11 +6265,29 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      Clicking this should raise an alert!
                     </span>
                   </div>
                   <div
@@ -5274,25 +6301,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      Clicking this should raise an alert!
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -5305,7 +6314,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -5313,7 +6322,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -5323,30 +6332,50 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -5354,18 +6383,18 @@ exports[`Storyshots Timeline Event handlers 1`] = `
 `;
 
 exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -5670,68 +6699,195 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Modify the appearance of bubbles and containing icons
-          </div>
+          Modify the appearance of bubbles and containing icons
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -5739,7 +6895,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -5823,7 +6979,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -5834,7 +6990,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -5842,7 +6998,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -6026,11 +7182,29 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      Notice the style variations to the bubble and icons
                     </span>
                   </div>
                   <div
@@ -6044,25 +7218,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      Notice the style variations to the bubble and icons
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -6076,7 +7232,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -6084,7 +7240,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -6289,11 +7445,29 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      John called!
                     </span>
                   </div>
                   <div
@@ -6307,25 +7481,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      John called!
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -6338,7 +7494,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -6346,7 +7502,7 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -6356,30 +7512,50 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -6387,18 +7563,18 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
 `;
 
 exports[`Storyshots Timeline Orientation 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -6708,68 +7884,195 @@ exports[`Storyshots Timeline Orientation 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Timeline view with the other orientation
-          </div>
+          Timeline view with the other orientation
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -6777,7 +8080,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -6817,7 +8120,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -6828,7 +8131,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -6836,7 +8139,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -6968,11 +8271,29 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
                     </span>
                   </div>
                   <div
@@ -6986,25 +8307,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -7018,7 +8321,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -7026,7 +8329,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -7158,7 +8461,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -7169,7 +8472,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -7177,7 +8480,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7188,7 +8491,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7198,7 +8501,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 63,
+                          "paddingLeft": 78,
                           "paddingRight": 3,
                         }
                       }
@@ -7206,7 +8509,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7216,7 +8519,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -7224,7 +8527,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7238,7 +8541,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -7246,7 +8549,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7257,7 +8560,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7267,7 +8570,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 63,
+                          "paddingLeft": 78,
                           "paddingRight": 3,
                         }
                       }
@@ -7275,7 +8578,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7285,7 +8588,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -7293,7 +8596,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7307,7 +8610,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -7315,7 +8618,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7326,11 +8629,29 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
                         &gt;
+                      </span>
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "paddingLeft": 78,
+                          "paddingRight": 3,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        - Maya
                       </span>
                     </div>
                     <div
@@ -7344,25 +8665,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
-                          }
-                        }
-                      >
-                        - Maya
-                      </span>
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "paddingLeft": 48,
-                          "paddingRight": 3,
-                        }
-                      }
-                    >
-                      <span
-                        style={
-                          Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -7375,7 +8678,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -7383,7 +8686,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -7396,7 +8699,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -7404,7 +8707,7 @@ exports[`Storyshots Timeline Orientation 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -7414,30 +8717,50 @@ exports[`Storyshots Timeline Orientation 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -7445,18 +8768,18 @@ exports[`Storyshots Timeline Orientation 1`] = `
 `;
 
 exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -7756,68 +9079,195 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Make the content collapsible
-          </div>
+          Make the content collapsible
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -7825,7 +9275,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -7836,7 +9286,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -7847,7 +9297,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -7855,7 +9305,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -8009,11 +9459,29 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
                     </span>
                   </div>
                   <div
@@ -8027,25 +9495,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -8059,7 +9509,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -8067,7 +9517,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -8210,7 +9660,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -8221,7 +9671,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -8229,7 +9679,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8240,7 +9690,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8250,7 +9700,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 63,
+                          "paddingLeft": 78,
                           "paddingRight": 3,
                         }
                       }
@@ -8258,7 +9708,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8268,7 +9718,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -8276,7 +9726,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8290,7 +9740,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -8298,7 +9748,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8309,7 +9759,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8319,7 +9769,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 63,
+                          "paddingLeft": 78,
                           "paddingRight": 3,
                         }
                       }
@@ -8327,7 +9777,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8337,7 +9787,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -8345,7 +9795,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8359,7 +9809,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <div
                       style={
                         Object {
-                          "paddingLeft": 48,
+                          "paddingLeft": 63,
                           "paddingRight": 3,
                         }
                       }
@@ -8367,7 +9817,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8378,11 +9828,29 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
                         &gt;
+                      </span>
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "paddingLeft": 78,
+                          "paddingRight": 3,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        - Maya
                       </span>
                     </div>
                     <div
@@ -8396,25 +9864,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                       <span
                         style={
                           Object {
-                            "color": "#777",
-                          }
-                        }
-                      >
-                        - Maya
-                      </span>
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "paddingLeft": 48,
-                          "paddingRight": 3,
-                        }
-                      }
-                    >
-                      <span
-                        style={
-                          Object {
-                            "color": "#777",
+                            "color": "#444",
                           }
                         }
                       >
@@ -8427,7 +9877,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -8435,7 +9885,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -8448,7 +9898,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -8456,7 +9906,7 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -8466,30 +9916,50 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
@@ -8497,18 +9967,18 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
 `;
 
 exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "rgb(255, 234, 234)",
-      "fontFamily": "Roboto",
-      "height": "100vh",
-    }
-  }
->
-  <div>
+<div>
+  <div
+    style={Object {}}
+  >
     <div
-      style={Object {}}
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
     >
       <div>
         <section
@@ -8816,68 +10286,195 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
         </section>
       </div>
     </div>
-    <div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
-            "backgroundColor": "#fff",
-            "border": "1px solid #eee",
-            "borderRadius": "2px",
-            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-            "fontSize": "15px",
-            "fontWeight": 300,
-            "lineHeight": 1.45,
-            "marginBottom": "20px",
-            "marginTop": "20px",
-            "padding": "20px 40px 40px",
+            "marginBottom": 0,
           }
         }
       >
         <div
           style={
             Object {
-              "marginBottom": 0,
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
-                "fontSize": "15px",
-              }
-            }
-          >
-            Add your own title and subtitle to events
-          </div>
+          Add your own title and subtitle to events
         </div>
-        <div>
-          <h1
-            style={
-              Object {
-                "borderBottom": "1px solid #EEE",
-                "fontSize": "25px",
-                "margin": "20px 0 0 0",
-                "padding": "0 0 5px 0",
-              }
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
             }
-          >
-            Story Source
-          </h1>
-          <pre
-            className="css-4akams"
-          >
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
             <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
               <div>
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -8885,7 +10482,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -8896,7 +10493,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -8907,7 +10504,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -8915,7 +10512,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -9099,11 +10696,29 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
                     </span>
                   </div>
                   <div
@@ -9117,25 +10732,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      I received the payment for $543. Should be shipping the item within a couple of hours. Thanks for the order!
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -9149,7 +10746,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                   <div
                     style={
                       Object {
-                        "paddingLeft": 33,
+                        "paddingLeft": 48,
                         "paddingRight": 3,
                       }
                     }
@@ -9157,7 +10754,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -9393,11 +10990,29 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
                       &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      Like we talked, you said that you would share the shipment details? This is an urgent order and so I am losing patience. Can you expedite the process and pls do share the details asap. Consider this a gentle reminder if you are on track already!
                     </span>
                   </div>
                   <div
@@ -9411,25 +11026,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                     <span
                       style={
                         Object {
-                          "color": "#777",
-                        }
-                      }
-                    >
-                      Like we talked, you said that you would share the shipment details? This is an urgent order and so I am losing patience. Can you expedite the process and pls do share the details asap. Consider this a gentle reminder if you are on track already!
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 33,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#777",
+                          "color": "#444",
                         }
                       }
                     >
@@ -9442,7 +11039,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                 <div
                   style={
                     Object {
-                      "paddingLeft": 18,
+                      "paddingLeft": 33,
                       "paddingRight": 3,
                     }
                   }
@@ -9450,7 +11047,7 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                   <span
                     style={
                       Object {
-                        "color": "#777",
+                        "color": "#444",
                       }
                     }
                   >
@@ -9460,30 +11057,50 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
                   </span>
                 </div>
               </div>
-            </div>
-            <button
-              className="css-py33tc"
-              onClick={[Function]}
-            >
               <div
-                className="css-kv47nt"
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
               >
-                <div
+                <span
                   style={
                     Object {
-                      "marginBottom": 6,
+                      "color": "#444",
                     }
                   }
                 >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
+                  &lt;/
+                  div
+                  &gt;
+                </span>
               </div>
-            </button>
-          </pre>
-        </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
       </div>
     </div>
   </div>
