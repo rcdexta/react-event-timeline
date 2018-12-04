@@ -51,7 +51,7 @@
     "@storybook/react": "^4.0.9",
     "@storybook/storybook-deployer": "^2.5.2",
     "@types/react": "^16.7.11",
-    "autoprefixer": "^6.4.1",
+    "autoprefixer": "^9.4.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
