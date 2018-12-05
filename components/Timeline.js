@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import s from './styles'
 
@@ -6,13 +6,13 @@ class Timeline extends Component {
   render () {
     const { orientation = 'left', children, lineColor, lineStyle, style, ...otherProps } = this.props
     const childrenWithProps = React.Children.map(children, child => React.cloneElement(child, { orientation }))
-    let leftOrRight = (orientation === 'right') ? {...s['containerBefore--right']} : {...s['containerBefore--left']}
-    let lineAppearance = {...leftOrRight, ...lineStyle}
-    lineAppearance = lineColor ? {...lineAppearance, background: lineColor} : lineAppearance
+    let leftOrRight = (orientation === 'right') ? { ...s['containerBefore--right'] } : { ...s['containerBefore--left'] }
+    let lineAppearance = { ...leftOrRight, ...lineStyle }
+    lineAppearance = lineColor ? { ...lineAppearance, background: lineColor } : lineAppearance
     return (
       <div>
-        <section style={{...s.container, ...style}} {...otherProps}>
-          <div style={{...s.containerBefore, ...lineAppearance}} />
+        <section style={{ ...s.container, ...style }} {...otherProps}>
+          <div style={{ ...s.containerBefore, ...lineAppearance }} />
           {childrenWithProps}
           <div style={s.containerAfter} />
         </section >
