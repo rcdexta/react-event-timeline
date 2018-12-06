@@ -1,5 +1,24 @@
 import * as React from "react";
-import { Timeline, TimelineEvent } from ".";
+import { Timeline, TimelineEvent, TimelineBlip } from ".";
+
+export const UseTimelineBlip = (
+  <Timeline>
+    <TimelineBlip
+      title="Remove PropTypes warning"
+      iconStyle={{ marginLeft: 1, marginTop: 0 }}
+      icon={<i className="material-icons md-18">assignment_late</i>}
+      iconColor="#03a9f4"
+      style={{
+        color: "#9c27b0"
+      }}
+    />
+    <TimelineBlip
+      title="John starred this thread"
+      icon={<i className="material-icons md-18">grade</i>}
+      iconColor="#6fba1c"
+    />
+  </Timeline>
+);
 
 export default (
   <Timeline>
