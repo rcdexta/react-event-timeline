@@ -77,7 +77,7 @@
     "react-test-renderer": "^16.6.3",
     "rimraf": "^2.5.4",
     "sass-loader": "^7.1.0",
-    "semantic-release": "^15.12.4",
+    "semantic-release": "6.3.6",
     "travis-deploy-once": "^5.0.9",
     "typescript": "^3.2.1"
   },
