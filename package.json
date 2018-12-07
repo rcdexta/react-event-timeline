@@ -13,7 +13,6 @@
     "lint": "eslint components/ stories/ __tests__/",
     "lintfix": "npm run lint -- --fix",
     "prepublish": "npm run lint && npm run build",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "storybook": "start-storybook -p 9002",
     "test": "jest && tsc -p typings",
     "test:watch": "jest --watch",
@@ -21,7 +20,8 @@
     "docs": "build-storybook -o docs",
     "commit": "git cz",
     "deploy-storybook": "storybook-to-ghpages",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -77,7 +77,7 @@
     "react-test-renderer": "^16.6.3",
     "rimraf": "^2.5.4",
     "sass-loader": "^7.1.0",
-    "semantic-release": "^15.12.4",
+    "semantic-release": "^15.9.16",
     "travis-deploy-once": "^5.0.9",
     "typescript": "^3.2.1"
   },
