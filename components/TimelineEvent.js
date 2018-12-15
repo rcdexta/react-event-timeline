@@ -79,7 +79,8 @@ class TimelineEvent extends Component {
       subtitleStyle,
       orientation,
       collapsible,
-      ...otherProps
+      onClick,
+      className
     } = this.props
     const leftOrRightEventStyling = orientation === 'right' ? { ...s['event--right'] } : { ...s['event--left'] }
     const leftOrRightButtonStyling = orientation === 'left' ? { ...s['actionButtons--right'] } : { ...s['actionButtons--left'] }
@@ -88,7 +89,7 @@ class TimelineEvent extends Component {
         <div style={this.mergeNotificationStyle(iconColor, bubbleStyle, orientation)}>
           <span style={{ ...s.materialIcons, ...iconStyle }}>{icon}</span>
         </div>
-        <div {...otherProps} style={this.containerStyle()}>
+        <div style={this.containerStyle()} {...{ onClick, className }}>
           <div style={s.eventContainerBefore} />
           <div style={this.toggleStyle()} onClick={collapsible && this.toggleContent}>
             {createdAt && <div style={this.timeStyle()}>{createdAt}</div>}
@@ -122,7 +123,9 @@ TimelineEvent.propTypes = {
   titleStyle: PropTypes.object,
   subtitleStyle: PropTypes.object,
   collapsible: PropTypes.bool,
-  showContent: PropTypes.bool
+  showContent: PropTypes.bool,
+  className: PropTypes.string,
+  onClick: PropTypes.func
 }
 
 TimelineEvent.defaultProps = {
@@ -135,7 +138,9 @@ TimelineEvent.defaultProps = {
   titleStyle: {},
   subtitleStyle: {},
   orientation: 'left',
-  showContent: false
+  showContent: false,
+  className: '',
+  onClick: () => {}
 }
 
 export default TimelineEvent

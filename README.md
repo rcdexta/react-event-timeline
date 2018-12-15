@@ -62,7 +62,7 @@ ReactDOM.render(
 );
 ```
 
-Please refer to [story description](https://github.com/rcdexta/react-event-timeline/blob/master/stories/App.story.js) to check out code for all the examples in the storybook
+Please refer [storybook](https://github.com/rcdexta/react-event-timeline/blob/master/stories/App.story.js) to check out code for all the examples in the storybook
 
 ## API Documentation
 
@@ -119,11 +119,11 @@ Refer to Condensed Timeline in Storybook for examples of using this component
 
 This project recommends using [react-storybook](https://github.com/kadirahq/react-storybook) as a UI component development environment. Use the following scripts for your development workflow:
 
-1. `yarn storybook`: Start developing by using storybook
-2. `yarn lint` : Lint all js files
-3. `yarn lintfix` : fix linting errors of all js files
-4. `yarn build`: transpile all ES6 component files into ES5(commonjs) and put it in `dist` directory
-5. `yarn docs`: create static build of storybook in `docs` directory that can be used for github pages
+1. `npm run storybook`: Start developing by using storybook
+2. `npm run lint` : Lint all js files
+3. `npm run lintfix` : fix linting errors of all js files
+4. `npm run build`: transpile all ES6 component files into ES5(commonjs) and put it in `dist` directory
+5. `npm run docs`: create static build of storybook in `docs` directory that can be used for github pages
 
 The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes live reloaded on the browser
 

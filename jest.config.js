@@ -6,7 +6,7 @@ module.exports = {
     '^.+\\.jsx?$': 'babel-jest'
   },
   'moduleNameMapper': {
-    '\\.(jpg|png|gif|svg)$': '<rootDir>/__mocks__/fileMock.js'
+    '\\.(jpg|png|gif|svg)$': '<rootDir>/tests/__mocks__/fileMock.js'
   },
   'coveragePathIgnorePatterns': [
     '/stories/',
