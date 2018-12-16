@@ -1,6 +1,6 @@
 # react-event-timeline
 
-A react component to generate responsive event timeline.
+React component to generate a responsive event timeline.
 
 [![npm version](https://badge.fury.io/js/react-event-timeline.svg)](https://badge.fury.io/js/react-event-timeline)
 [![Build Status](https://travis-ci.org/rcdexta/react-event-timeline.svg?branch=master)](https://travis-ci.org/rcdexta/react-event-timeline)
@@ -11,7 +11,7 @@ A react component to generate responsive event timeline.
 
 See the storybook demo here: https://rcdexta.github.io/react-event-timeline
 
-CodeSandbox version available here (in typescript):
+CodeSandbox version to play with (in typescript):
 
 [![Edit Timeline Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/13k1jjqj64)
 
@@ -62,7 +62,7 @@ ReactDOM.render(
 );
 ```
 
-Please refer [storybook](https://github.com/rcdexta/react-event-timeline/blob/master/stories/App.story.js) to check out code for all the examples in the storybook
+Please refer [storybook](https://github.com/rcdexta/react-event-timeline/blob/master/stories/App.story.js) to check out code for all the examples in the `storybook` folder.
 
 ## API Documentation
 
@@ -114,7 +114,6 @@ Use this component if your event footprint is too small and can be described in 
 
 Refer to Condensed Timeline in Storybook for examples of using this component
 
-
 ## Development
 
 This project recommends using [react-storybook](https://github.com/kadirahq/react-storybook) as a UI component development environment. Use the following scripts for your development workflow:
@@ -125,9 +124,9 @@ This project recommends using [react-storybook](https://github.com/kadirahq/reac
 4. `npm run build`: transpile all ES6 component files into ES5(commonjs) and put it in `dist` directory
 5. `npm run docs`: create static build of storybook in `docs` directory that can be used for github pages
 
-The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes live reloaded on the browser
+The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes hot reloaded on the browser
 
-Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository.
+Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and raise a PR.
 
 ## License
 
