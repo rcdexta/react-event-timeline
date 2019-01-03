@@ -107,7 +107,7 @@ Use this component if your event footprint is too small and can be described in 
 | Name      | Type   | Description                              |
 | --------- | ------ | ---------------------------------------- |
 | title     | node   | The title of the event. Can be string or any DOM element node(s) |
-| icon      | node   | The icon to show as event lable. Can be a SVG or font icon |
+| icon      | node   | The icon to show as event label. Can be a SVG or font icon |
 | iconColor | string | CSS color code for icon                  |
 | iconStyle | object   | Custom CSS styling for the icon                  |
 | style     | object   | Override style for the entire event container |
