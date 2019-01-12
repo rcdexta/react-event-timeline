@@ -69,10 +69,12 @@ exports[`Storyshots Timeline Action buttons 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -766,10 +768,12 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -917,10 +921,12 @@ exports[`Storyshots Timeline Card Appearance 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -2102,6 +2108,7 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -2175,6 +2182,7 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -2868,6 +2876,694 @@ exports[`Storyshots Timeline Condensed Timeline 1`] = `
 </div>
 `;
 
+exports[`Storyshots Timeline Content Event handlers 1`] = `
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "rgb(255, 234, 234)",
+          "fontFamily": "Roboto",
+          "height": "100vh",
+        }
+      }
+    >
+      <div>
+        <section
+          style={
+            Object {
+              "fontSize": "80%",
+              "fontWeight": 300,
+              "margin": "0 auto",
+              "padding": "10px 0",
+              "position": "relative",
+              "width": "95%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "background": "#a0b2b8",
+                "content": "",
+                "height": "100%",
+                "left": "16px",
+                "position": "absolute",
+                "top": 0,
+                "width": 2,
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "margin": "10px 0",
+                "paddingLeft": 45,
+                "position": "relative",
+                "textAlign": "left",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "background": "#e9f0f5",
+                  "border": "2px solid #6fba1c",
+                  "borderColor": "#6fba1c",
+                  "borderRadius": "50%",
+                  "color": "#6fba1c",
+                  "display": "flex",
+                  "height": 30,
+                  "left": 0,
+                  "marginLeft": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": 30,
+                }
+              }
+            >
+              <span
+                onClick={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "cursor": "pointer",
+                    "display": "flex",
+                    "height": 32,
+                    "justifyContent": "center",
+                    "position": "relative",
+                    "width": 32,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-18"
+                >
+                  textsms
+                </i>
+              </span>
+            </div>
+            <div
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "borderColor": "transparent",
+                    "borderLeftColor": "#ffffff",
+                    "left": "100%",
+                    "top": 24,
+                  }
+                }
+              />
+              <div
+                style={Object {}}
+              >
+                <div
+                  style={
+                    Object {
+                      "color": "#303e49",
+                      "marginBottom": 3,
+                    }
+                  }
+                >
+                  2016-09-12 10:06 PM
+                </div>
+                <div
+                  style={Object {}}
+                >
+                  John Doe sent you a click bomb
+                </div>
+                <div
+                  style={
+                    Object {
+                      "float": "right",
+                      "marginTop": -20,
+                      "textAlign": "right",
+                    }
+                  }
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                    "lineHeight": 1.6,
+                    "marginBottom": "1em",
+                    "marginTop": "1em",
+                    "padding": "0.5em 1em",
+                    "width": "98%",
+                  }
+                }
+              >
+                Clicking this should raise an alert!
+                <div
+                  style={
+                    Object {
+                      "clear": "both",
+                      "content": "",
+                      "display": "table",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                  "content": "",
+                  "display": "table",
+                }
+              }
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "clear": "both",
+                "content": "",
+                "display": "table",
+              }
+            }
+          />
+        </section>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": 0,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "WebkitFontSmoothing": "antialiased",
+              "color": "#444",
+              "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+              "fontSize": "15px",
+            }
+          }
+        >
+          Timeline events can listen to user actions
+        </div>
+      </div>
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
+            }
+          }
+        >
+          Story Source
+        </h1>
+        <pre
+          className="css-r8d96o eyvlbql0"
+        >
+          <div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          {
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              backgroundColor
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'rgb(255, 234, 234)'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              height
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            '100vh'
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              fontFamily
+                            </span>
+                          </span>
+                          : 
+                          <span
+                            style={
+                              Object {
+                                "color": "#22a",
+                                "wordBreak": "break-word",
+                              }
+                            }
+                          >
+                            'Roboto'
+                          </span>
+                          }
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
+              <div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 33,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;
+                    Timeline
+                  </span>
+                  <span />
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &gt;
+                  </span>
+                </div>
+                <div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 48,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      &lt;
+                      TimelineEvent
+                    </span>
+                    <span>
+                      <span>
+                        <span>
+                          <br />
+                            
+                        </span>
+                        <span
+                          style={Object {}}
+                        >
+                          title
+                        </span>
+                        <span>
+                          =
+                          <span
+                            style={Object {}}
+                          >
+                            "
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              John Doe sent you a click bomb
+                            </span>
+                            "
+                          </span>
+                        </span>
+                      </span>
+                      <span>
+                        <span>
+                          <br />
+                            
+                        </span>
+                        <span
+                          style={Object {}}
+                        >
+                          createdAt
+                        </span>
+                        <span>
+                          =
+                          <span
+                            style={Object {}}
+                          >
+                            "
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              2016-09-12 10:06 PM
+                            </span>
+                            "
+                          </span>
+                        </span>
+                      </span>
+                      <span>
+                        <span>
+                          <br />
+                            
+                        </span>
+                        <span
+                          style={Object {}}
+                        >
+                          icon
+                        </span>
+                        <span>
+                          =
+                          <span
+                            style={Object {}}
+                          >
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              &lt;i /&gt;
+                            </span>
+                            }
+                          </span>
+                        </span>
+                      </span>
+                      <span>
+                        <span>
+                          <br />
+                            
+                        </span>
+                        <span
+                          style={Object {}}
+                        >
+                          iconColor
+                        </span>
+                        <span>
+                          =
+                          <span
+                            style={Object {}}
+                          >
+                            "
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              #6fba1c
+                            </span>
+                            "
+                          </span>
+                        </span>
+                      </span>
+                      <span>
+                        <span>
+                          <br />
+                            
+                        </span>
+                        <span
+                          style={Object {}}
+                        >
+                          onClick
+                        </span>
+                        <span>
+                          =
+                          <span
+                            style={Object {}}
+                          >
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#170",
+                                }
+                              }
+                            >
+                              onClick
+                            </span>
+                            }
+                          </span>
+                        </span>
+                        <br />
+                      </span>
+                    </span>
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      &gt;
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 63,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      Clicking this should raise an alert!
+                    </span>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "paddingLeft": 48,
+                        "paddingRight": 3,
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#444",
+                        }
+                      }
+                    >
+                      &lt;/
+                      TimelineEvent
+                      &gt;
+                    </span>
+                  </div>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 33,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#444",
+                      }
+                    }
+                  >
+                    &lt;/
+                    Timeline
+                    &gt;
+                  </span>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;/
+                  div
+                  &gt;
+                </span>
+              </div>
+            </div>
+          </div>
+          <button
+            className="css-1naocv3 eva467m0"
+            onClick={[Function]}
+          >
+            <div
+              className="css-lvl6aa eva467m1"
+            >
+              <div
+                style={
+                  Object {
+                    "marginBottom": 6,
+                  }
+                }
+              >
+                Copied!
+              </div>
+              <div>
+                Copy
+              </div>
+            </div>
+          </button>
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Timeline Content with images 1`] = `
 <div>
   <div
@@ -2937,10 +3633,12 @@ exports[`Storyshots Timeline Content with images 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -3708,10 +4406,12 @@ exports[`Storyshots Timeline Default View 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -3838,10 +4538,12 @@ exports[`Storyshots Timeline Default View 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -4882,10 +5584,12 @@ exports[`Storyshots Timeline Event Styling 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -5675,7 +6379,7 @@ exports[`Storyshots Timeline Event Styling 1`] = `
 </div>
 `;
 
-exports[`Storyshots Timeline Event handlers 1`] = `
+exports[`Storyshots Timeline Icon Event handlers 1`] = `
 <div>
   <div
     style={Object {}}
@@ -5730,9 +6434,9 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                 Object {
                   "background": "#e9f0f5",
                   "border": "2px solid #6fba1c",
-                  "borderColor": "#6fba1c",
+                  "borderColor": "red",
                   "borderRadius": "50%",
-                  "color": "#6fba1c",
+                  "color": "red",
                   "display": "flex",
                   "height": 30,
                   "left": 0,
@@ -5744,10 +6448,12 @@ exports[`Storyshots Timeline Event handlers 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -5759,7 +6465,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                 <i
                   className="material-icons md-18"
                 >
-                  textsms
+                  stop
                 </i>
               </span>
             </div>
@@ -5798,7 +6504,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                 <div
                   style={Object {}}
                 >
-                  John Doe sent you a click bomb
+                  Playing Beethoven's Moonlight Sonata
                 </div>
                 <div
                   style={
@@ -5823,7 +6529,7 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                   }
                 }
               >
-                Clicking this should raise an alert!
+                Press icon on the bubble to stop music
                 <div
                   style={
                     Object {
@@ -6041,275 +6747,34 @@ exports[`Storyshots Timeline Event handlers 1`] = `
                   &gt;
                 </span>
               </div>
-              <div>
-                <div
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
                   style={
                     Object {
-                      "paddingLeft": 33,
-                      "paddingRight": 3,
+                      "color": "#444",
                     }
                   }
                 >
-                  <span
-                    style={
-                      Object {
-                        "color": "#444",
-                      }
-                    }
-                  >
-                    &lt;
-                    Timeline
-                  </span>
-                  <span />
-                  <span
-                    style={
-                      Object {
-                        "color": "#444",
-                      }
-                    }
-                  >
-                    &gt;
-                  </span>
-                </div>
-                <div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
-                      &lt;
-                      TimelineEvent
-                    </span>
-                    <span>
-                      <span>
-                        <span>
-                          <br />
-                            
-                        </span>
-                        <span
-                          style={Object {}}
-                        >
-                          title
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              John Doe sent you a click bomb
-                            </span>
-                            "
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                        <span>
-                          <br />
-                            
-                        </span>
-                        <span
-                          style={Object {}}
-                        >
-                          createdAt
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              2016-09-12 10:06 PM
-                            </span>
-                            "
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                        <span>
-                          <br />
-                            
-                        </span>
-                        <span
-                          style={Object {}}
-                        >
-                          icon
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            {
-                            <span
-                              style={
-                                Object {
-                                  "color": "#666",
-                                }
-                              }
-                            >
-                              &lt;i /&gt;
-                            </span>
-                            }
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                        <span>
-                          <br />
-                            
-                        </span>
-                        <span
-                          style={Object {}}
-                        >
-                          iconColor
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #6fba1c
-                            </span>
-                            "
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                        <span>
-                          <br />
-                            
-                        </span>
-                        <span
-                          style={Object {}}
-                        >
-                          onClick
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            {
-                            <span
-                              style={
-                                Object {
-                                  "color": "#170",
-                                }
-                              }
-                            >
-                              onClick
-                            </span>
-                            }
-                          </span>
-                        </span>
-                        <br />
-                      </span>
-                    </span>
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
-                      &gt;
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 63,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
-                      Clicking this should raise an alert!
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
-                      &lt;/
-                      TimelineEvent
-                      &gt;
-                    </span>
-                  </div>
-                </div>
-                <div
+                  &lt;
+                  IconEventDemo
+                </span>
+                <span />
+                <span
                   style={
                     Object {
-                      "paddingLeft": 33,
-                      "paddingRight": 3,
+                      "color": "#444",
                     }
                   }
                 >
-                  <span
-                    style={
-                      Object {
-                        "color": "#444",
-                      }
-                    }
-                  >
-                    &lt;/
-                    Timeline
-                    &gt;
-                  </span>
-                </div>
+                  /&gt;
+                </span>
               </div>
               <div
                 style={
@@ -6431,10 +6896,12 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -6561,10 +7028,12 @@ exports[`Storyshots Timeline Icon and Bubble Styling 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -7608,10 +8077,12 @@ exports[`Storyshots Timeline Orientation 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -7738,10 +8209,12 @@ exports[`Storyshots Timeline Orientation 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -8811,10 +9284,12 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -8946,10 +9421,12 @@ exports[`Storyshots Timeline TimelineEvent with collapsible content 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -10008,10 +10485,12 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",
@@ -10139,10 +10618,12 @@ exports[`Storyshots Timeline Title and Subtitle styling 1`] = `
               }
             >
               <span
+                onClick={[Function]}
                 style={
                   Object {
                     "alignItems": "center",
                     "alignSelf": "center",
+                    "cursor": "pointer",
                     "display": "flex",
                     "height": 32,
                     "justifyContent": "center",

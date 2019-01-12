@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
 import { storiesOf } from '@storybook/react'
-import { Timeline, TimelineEvent, TimelineBlip } from '../components/index'
+import React, { Component } from 'react'
+
+import { Timeline, TimelineBlip, TimelineEvent } from '../components'
 import Image from './sample.jpg'
 
 const globalStyles = {
@@ -189,7 +190,7 @@ storiesOf('Timeline', module)
     { info: 'Timeline event container can be modelled as a card' }
   )
   .add(
-    'Event handlers',
+    'Content Event handlers',
     () => (
       <Timeline>
         <TimelineEvent
@@ -203,6 +204,51 @@ storiesOf('Timeline', module)
         </TimelineEvent>
       </Timeline>
     ),
+    { info: 'Timeline events can listen to user actions' }
+  )
+  .add(
+    'Icon Event handlers',
+    () => {
+      class IconEventDemo extends React.Component {
+        constructor(props) {
+          super(props)
+          this.state = {
+            active: true,
+            iconColor: 'red'
+          }
+          this.toggleEvent = this.toggleEvent.bind(this)
+        }
+
+        get icon() {
+          return this.state.active ? 'stop' : 'play_arrow'
+        }
+
+        toggleEvent() {
+          alert('Will toggle event status between play and stop')
+          this.setState({
+            active: !this.state.active,
+            iconColor: this.state.iconColor === 'red' ? 'green' : 'red'
+          })
+        }
+
+        render() {
+          return (
+            <Timeline>
+              <TimelineEvent
+                title="Playing Beethoven's Moonlight Sonata"
+                createdAt='2016-09-12 10:06 PM'
+                icon={<i className='material-icons md-18'>{this.icon}</i>}
+                iconColor={this.state.iconColor}
+                onIconClick={this.toggleEvent}
+              >
+                Press icon on the bubble to stop music
+              </TimelineEvent>
+            </Timeline>
+          )
+        }
+      }
+      return <IconEventDemo />
+    },
     { info: 'Timeline events can listen to user actions' }
   )
   .add(

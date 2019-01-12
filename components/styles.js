@@ -67,6 +67,7 @@ let style = {
     height: 32,
     position: 'relative',
     justifyContent: 'center',
+    cursor: 'pointer',
     alignSelf: 'center',
     alignItems: 'center'
   },

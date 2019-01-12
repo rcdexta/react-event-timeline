@@ -29,6 +29,7 @@ export interface TimelineEventProps {
   showContent?: boolean;
   className?: string;
   onClick?: (evt: React.MouseEvent<HTMLDivElement>) => void
+  onIconClick?: (evt: React.MouseEvent<HTMLDivElement>) => void
 }
 
 export interface TimelineBlipProps {
