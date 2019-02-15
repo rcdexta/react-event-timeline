@@ -130,8 +130,7 @@ Also use [semantic-release](https://github.com/semantic-release/semantic-release
 
 # Acknowledgements
 
-This project is graciously supported by IDE tools offer Jetbrains for development.
-
+This project is graciously supported by IDE tools offered by [JetBrains](https://www.jetbrains.com/) for development.
 
 [![alt tag](https://github.com/rcdexta/react-event-timeline/blob/master/jetbrains-badge.png)](https://www.jetbrains.com/)
 
