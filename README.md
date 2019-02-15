@@ -128,6 +128,14 @@ The storybook artefacts can be found in `stories` folder. Run `npm run storybook
 
 Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and raise a PR.
 
+# Acknowledgements
+
+This project is graciously supported by IDE tools offer Jetbrains for development.
+
+
+[![alt tag](https://github.com/rcdexta/react-event-timeline/blob/master/jetbrains-badge.png)](https://www.jetbrains.com/)
+
+
 ## License
 
 MIT
