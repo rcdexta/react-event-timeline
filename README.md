@@ -1,6 +1,6 @@
 # react-event-timeline
 
-React component to generate a responsive vertical event timeline.
+React component to generate a responsive vertical event timeline
 
 [![npm version](https://badge.fury.io/js/react-event-timeline.svg)](https://badge.fury.io/js/react-event-timeline)
 [![Build Status](https://travis-ci.org/rcdexta/react-event-timeline.svg?branch=master)](https://travis-ci.org/rcdexta/react-event-timeline)
@@ -9,9 +9,9 @@ React component to generate a responsive vertical event timeline.
 
 ![alt tag](https://github.com/rcdexta/react-event-timeline/raw/master/timeline.png)
 
-See the storybook demo here: https://rcdexta.github.io/react-event-timeline
+Storybook demos here: https://rcdexta.github.io/react-event-timeline
 
-CodeSandbox version to play with (in typescript):
+CodeSandbox version to play with examples (in typescript):
 
 [![Edit Timeline Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/13k1jjqj64)
 
@@ -21,10 +21,11 @@ CodeSandbox version to play with (in typescript):
 
 * Is lightweight
 * Responsive and extensible
+* Has multiple configurations
 
 ## Getting started
 
-To install the dependency
+To install as npm dependency
 ```
 npm install --save react-event-timeline
 ```
