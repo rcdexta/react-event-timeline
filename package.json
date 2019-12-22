@@ -44,7 +44,7 @@
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-info": "^4.0.11",
-    "@storybook/addon-options": "^4.0.11",
+    "@storybook/addon-options": "^5.1.9",
     "@storybook/addon-storyshots": "^4.0.11",
     "@storybook/addons": "^4.0.11",
     "@storybook/react": "^4.0.9",
