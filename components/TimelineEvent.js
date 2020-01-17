@@ -12,7 +12,7 @@ class TimelineEvent extends Component {
 
   componentDidUpdate(prevProps) {
     if (this.props.showContent !== prevProps.showContent) {
-      this.state({ showContent: this.props.showContent })
+      this.setState({ showContent: this.props.showContent })
     }
   }
 
