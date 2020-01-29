@@ -21,7 +21,7 @@ CodeSandbox version to play with examples (in typescript):
 
 * Is lightweight
 * Responsive and extensible
-* Has multiple configurations
+* Configurable and customizable
 
 ## Getting started
 
